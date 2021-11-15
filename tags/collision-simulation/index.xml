@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Collision Simulation on Flavio Franzin</title>
+    <link>https://ffranzin.github.io/tags/collision-simulation/</link>
+    <description>Recent content in Collision Simulation on Flavio Franzin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 08 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ffranzin.github.io/tags/collision-simulation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPU-Based Rendering and Collision Simulation of Ground Vegetation in Large-Scace Virtual Scenarios</title>
+      <link>https://ffranzin.github.io/publications/gpu-based-rendering-and-collision-simulation-of-ground-vegetation-in-large-scace-virtual-scenarios/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/publications/gpu-based-rendering-and-collision-simulation-of-ground-vegetation-in-large-scace-virtual-scenarios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Break Glass</title>
+      <link>https://ffranzin.github.io/projects/creations/breaking-glass/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/projects/creations/breaking-glass/</guid>
+      <description>.center { display: block; margin-left: auto; margin-right: auto; max-width: 95%; } .row { display: flex; margin-left: auto; margin-right: auto; max-width: 95%; } .column { flex: 25%; padding: 2px; } video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; } #player-overlay { position: absolute; display: none; top: 0; left: 0; width: 100%; height: 100%; background-color: #000 z-index:999; }  I prototyped two solutions to break glass in games.</description>
+    </item>
+    
+    <item>
+      <title>Grass Deformation and Terrain Trails</title>
+      <link>https://ffranzin.github.io/projects/creations/grass-and-terrain-deformation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/projects/creations/grass-and-terrain-deformation/</guid>
+      <description>* { box-sizing: border-box; } .img-container { float: left; width: 25%; padding: 2px; } .video-container { float: left; width: 50%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 50%; }  I developed a solution for the real-time long-lasting grasses deformation and terrain trails according to the vehicles&#39; and characters&#39; movements. This is kept throughout the simulation with little memory overhead.</description>
+    </item>
+    
+    <item>
+      <title>Vector Data Access Optimization</title>
+      <link>https://ffranzin.github.io/projects/creations/vector-feature-map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/projects/creations/vector-feature-map/</guid>
+      <description>video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; } #player-overlay { position: absolute; display: none; top: 0; left: 0; width: 100%; height: 100%; background-color: #000 z-index:999; }  I developed a dynamic structure to optimize access to mass datasets of polygons and polylines, representing areas like forests, lakes, roads, and rivers. This structure accelerated the terrain rendering ーwhich these data are projected by texturingー by +80% on average.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GIS Data on Flavio Franzin</title>
+    <link>https://ffranzin.github.io/tags/gis-data/</link>
+    <description>Recent content in GIS Data on Flavio Franzin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language><atom:link href="https://ffranzin.github.io/tags/gis-data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Water planes mesh generation</title>
+      <link>https://ffranzin.github.io/projects/creations/water-bodies-meshes-generation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/projects/creations/water-bodies-meshes-generation/</guid>
+      <description>.center { display: block; margin-left: auto; margin-right: auto; max-width: 95%; } .row { display: flex; margin-left: auto; margin-right: auto; max-width: 95%; } .column { flex: 25%; padding: 2px; }  I designed and guided an intern in developing a tool to generate polygonal meshes from mass polygons and polylines datasets, used to represent water planes for lakes and rivers in 3D scenarios.
+
+Motivation
+This tool was developed to replace an old solution, which had problems with the scalability between junctions of entities, such as river-river (line-line, in the left), rivers-rivers (lines-lines, in the middle), and river-lake (line-polygon, in the right).</description>
+    </item>
+    
+  </channel>
+</rss>

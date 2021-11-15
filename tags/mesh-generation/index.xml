@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mesh Generation on Flavio Franzin</title>
+    <link>https://ffranzin.github.io/tags/mesh-generation/</link>
+    <description>Recent content in Mesh Generation on Flavio Franzin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 08 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ffranzin.github.io/tags/mesh-generation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Raster-based Approach for Waterbodies Mesh Generation</title>
+      <link>https://ffranzin.github.io/publications/a-raster-based-approach-for-waterbodies-mesh-generation/</link>
+      <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/publications/a-raster-based-approach-for-waterbodies-mesh-generation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Flavio Franzin | Procedural Vegetation System</title>
+  <meta property="og:title" content="Flavio Franzin | Procedural Vegetation System" />
+  <meta property="og:image" content="https://ffranzin.github.io/perfil.jpg" />
+  <meta name="description" content="I designed and developed a robust GPU-based vegetation system capable of handling thousands of trees and small plants efficiently in real-time.">
+  <meta property="og:description" content="I designed and developed a robust GPU-based vegetation system capable of handling thousands of trees and small plants efficiently in real-time." />
+  <meta name="author" content="Flavio Franzin ">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"></noscript>
+  <link rel="preload" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" integrity="sha512-JW3fT0YTK7pT7w437SoX6GcW76jOZ6E0jGmrqBAcloC4GKT+njHOY4fX5KxJ9WfIXTkNrAF994525fAHp+KCxg==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" integrity="sha512-JW3fT0YTK7pT7w437SoX6GcW76jOZ6E0jGmrqBAcloC4GKT+njHOY4fX5KxJ9WfIXTkNrAF994525fAHp+KCxg==" crossorigin="anonymous"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous"></noscript>
+  
+  <link rel="preload" href="https://ffranzin.github.io/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://ffranzin.github.io/css/resume.css"></noscript>
+  <link rel="preload" href="https://ffranzin.github.io/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://ffranzin.github.io/css/tweaks.css"></noscript>
+  <link rel="preload" href="https://ffranzin.github.io/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://ffranzin.github.io/css/resume-override.css"></noscript>
+  <meta name="generator" content="Hugo 0.88.1" />
+  
+   
+  
+</head>
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">Flavio Franzin </span>
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/perfil.jpg" alt="">
+    </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="/#about">About</a>
+          </li>
+          
+
+          
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="/#experience">Experience</a>
+          </li>
+          
+          
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="/#projects">Projects</a>
+          </li>
+          
+
+
+          
+
+
+          
+          
+          
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="/#Publications">Publications</a>
+          </li>
+          
+      </ul>
+  </div>
+</nav>
+
+  <div class="container-fluid p-0">
+    
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="https://ffranzin.github.io/">Home</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="https://ffranzin.github.io/projects/">Projects</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="https://ffranzin.github.io/projects/creations/">Projects and Main Achievements</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="https://ffranzin.github.io/projects/creations/procedural-vegetation-system/">Procedural Vegetation System</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+<section class="resume-section p-3 p-lg-5 d-flex d-column">
+    <div class="my-auto">
+        <h2 class="mb-0"><span class="text-primary">Procedural Vegetation System</span></h2>
+        <style>
+* {
+  box-sizing: border-box;
+}
+
+.img-container-x4 {
+  float: left;
+  width: 33%;
+  padding: 1px;
+}
+
+
+.img-container-x4:hover img 
+{
+  float: left;
+  width: 150%;
+  padding: 1px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+video {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+</style>
+<p>To solve the limitations of an existing solution, I designed and developed a robust GPU-based vegetation system capable of handling thousands of trees and small plants efficiently in real-time.</p>
+<br/>
+<p><strong>Motivation</strong></p>
+<p>Small environments are usually decorated by an artist or designer, which allows for fine control and pleasant-looking results. However, this process tends to be time-consuming and can quickly become impractical as the size of the environment increases. To deal with this, procedural solutions are commonly adopted as they speed up the process. Therefore, a solution was developed to distribute trees to the entire scenario and store the result for future use. However, the solution didn&rsquo;t allow artists' editing and was completely CPU-based. The non-use of parallelism and the constant data transfers between CPU→GPU were the main factors that negatively impacted the performance. Distribution was CPU-based and offline, where minor changes required hours to redistribute and save the result. The solution was limited to distributing large and medium-sized trees to minimize application loading cost and memory consumption.</p>
+<p>In this context, I designed and developed a new solution to manage vegetation in large-scale scenarios, solving the main limitations of an existing solution.</p>
+<br/>
+<p><strong>Solution</strong></p>
+<p>The solution distributes vegetation procedurally on-demand in regions delimited by quadtree&rsquo;s nodes. Nodes outside the camera&rsquo;s frustum are destroyed as well as the plants of it. The plants remain in memory as long as the nodes are visible. If needed, the plants are deterministically redistributed as the nodes are recreated.</p>
+<p>For distribution, the solution considers the influence of different <em>aspects</em>, such as terrain (e.g., slope and moisture), environmental (e.g., forest, lakes, and rivers zones), and human (e.g., villages and roads) <em>aspects</em>. These aspects must be normalizable values into [0, 1] for any scenario&rsquo;s portion. It is possible to use <em>maps</em> that indicate some information (e.g., precipitation and moisture level). In addition, it is also possible to use <em>vector data</em>, where normalized distances can indicate whether a scenario&rsquo;s position is <em>inside</em>, <em>outside</em>, or in a <em>transition region</em> to some area, such as road, river (delimited by polylines); or, lakes, forests, villages (delimited by polygons).</p>
+<blockquote>
+<p>The solution can integrate any information discretized into [0-1] relevant for the plants' distribution.</p>
+</blockquote>
+<p>Plants are grouped using the concept of <em>presets</em>, characterized by a set of plants that share the same needs, considering distribution <em>aspects</em> and other fields used to exist in some scenario&rsquo;s position. For example, a <em>presets</em> of plants that exist in 1) forest zones, 2) not in steep regions, and 3) in higher altitude regions. The system analyzes many <em>presets</em> in real-time and defines which preset best fits a particular scenario&rsquo;s position. After determining the best <em>presets</em> for the analyzed position, any plant from that can be randomly selected to be placed.</p>
+<p>For efficiency purposes, plants are analyzed frame-by-frame to establish a LOD to balance performance and visuals. The LOD is defined from the distance of each plant to the camera &ndash;artists have control over it. Also, plants outside the frustum are discarded before rendering. Finally, plants' data are appropriately organized to speed up the rendering using GPU-Instancing.</p>
+<p>Even though vegetation processing takes place mainly on the GPU, other processes on the CPU can still interact with plants. Objects can deform grass and small bushes, keeping them bent for long periods with acceptable memory demands (<a href="https://www.sbgames.org/sbgames2019/files/papers/ComputacaoFull/198047.pdf">see more details here</a>). Plants' colliders are instanced on-demand based on physics objects' positions to allow collisions with large and medium-sized trees using the physics engine.</p>
+<video controls>
+    <source src="\vegetation\Vegetation_interaction.mp4" type="video/mp4" class="video">
+</video>
+<br/>
+<br/>
+<p><strong>Results</strong></p>
+<p>A scalable GPU-based solution was developed to deal with any type of plant (e.g., trees, bushes, and grass) in real-time. It is possible to save different configurations &ndash;equivalent to biomes&ndash; and use them in different scenarios. Artists can intuitively edit these configurations to get different layouts for plant placement, previewing the result immediately. In addition, artists can edit LOD parameters to get a trade-off between visuals and performance. The solution also extracts maximum parallelism and processing from modern GPUs. It also avoids as much data transfer between CPU↔GPUs as possible.</p>
+<p>Below we have four examples of created biomes.</p>
+</br>
+<div class="clearfix">
+  <div class="img-container-x4">
+    <img src="\vegetation\amazonia_1.png" style="width:100%">
+  </div>
+   <div class="img-container-x4">
+    <img src="\vegetation\amazonia_2.png" style="width:100%">
+  </div>
+  <div class="img-container-x4">
+    <img src="\vegetation\amazonia_3.png" style="width:100%">
+  </div>
+</div>
+</br>
+<div class="clearfix">
+  <div class="img-container-x4">
+    <img src="\vegetation\atlantica_1.png" style="width:100%">
+  </div>
+   <div class="img-container-x4">
+    <img src="\vegetation\atlantica_2.png" style="width:100%">
+  </div>
+  <div class="img-container-x4">
+    <img src="\vegetation\atlantica_3.png" style="width:100%">
+  </div>
+</div>
+</br>
+<div class="clearfix">
+  <div class="img-container-x4">
+    <img src="\vegetation\pampa_1.png" style="width:100%">
+  </div>
+   <div class="img-container-x4">
+    <img src="\vegetation\pampa_2.png" style="width:100%">
+  </div>
+  <div class="img-container-x4">
+    <img src="\vegetation\pampa_3.png" style="width:100%">
+  </div>
+</div>
+</br>
+<div class="clearfix">
+  <div class="img-container-x4">
+    <img src="\vegetation\cerrado_1.png" style="width:100%">
+  </div>
+   <div class="img-container-x4">
+    <img src="\vegetation\cerrado_2.png" style="width:100%">
+  </div>
+  <div class="img-container-x4">
+    <img src="\vegetation\cerrado_3.png" style="width:100%">
+  </div>
+</div>
+</br>
+<p>Below it is possible to see the rendering of several plants in a long-distance view.</p>
+<div class="clearfix">
+  <div class="img-container-x4">
+    <img src="\vegetation\distance_view_1.png" style="width:100%">
+  </div>
+   <div class="img-container-x4">
+    <img src="\vegetation\distance_view_2.png" style="width:100%">
+  </div>
+  <div class="img-container-x4">
+    <img src="\vegetation\distance_view_3.png" style="width:100%">
+  </div>
+</div>
+</br>
+<p>Below we have a short performance demonstration.</p>
+<video controls>
+    <source src="\vegetation\FlyCameraPerformance.mp4" type="video/mp4" class="video">
+</video>
+
+        
+
+        <br />
+        <br />
+        <br />
+        
+<style>
+    text_capitalize {
+        text-transform: capitalize;
+    }
+</style>
+
+
+<ul class="tags">
+    
+    <li><text_capitalize><a class="tag" href="/tags/procedural">Procedural</a></text_capitalize></li>
+    
+    <li><text_capitalize><a class="tag" href="/tags/compute-shaders">Compute shaders</a></text_capitalize></li>
+    
+    <li><text_capitalize><a class="tag" href="/tags/computer-graphics">Computer graphics</a></text_capitalize></li>
+    
+    <li><text_capitalize><a class="tag" href="/tags/shader">Shader</a></text_capitalize></li>
+    
+    <li><text_capitalize><a class="tag" href="/tags/real-time">Real-time</a></text_capitalize></li>
+    
+    <li><text_capitalize><a class="tag" href="/tags/gpu-based">GPU-Based</a></text_capitalize></li>
+    
+    <li><text_capitalize><a class="tag" href="/tags/gpu-instancing">GPU-Instancing</a></text_capitalize></li>
+    
+    <li><text_capitalize><a class="tag" href="/tags/large-scale-scenario">Large-Scale scenario</a></text_capitalize></li>
+    
+</ul>
+
+    </div>
+
+
+
+</section>
+
+
+    <span style="color: #999999; font-size: 60%;">Nifty <a href="https://codepen.io/wbeeftink/pen/dIaDH">tech tag lists</a> from <a class="pen-owner-link" href="https://codepen.io/wbeeftink">Wouter Beeftink</a> </span>
+    
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous"></script>
+  
+  <script async src="/js/resume.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=XX-123446-01"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'XX-123446-01');
+  </script>
+  
+
+  
+</body>
+</html>
