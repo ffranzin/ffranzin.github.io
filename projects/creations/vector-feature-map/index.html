@@ -143,30 +143,13 @@ video {
 </style>
 <p>I developed a dynamic structure to optimize access to mass datasets of polygons and polylines, representing areas like forests, lakes, roads, and rivers. This structure accelerated the terrain rendering ーwhich these data are projected by texturingー by +80% on average.</p>
 <p><br />
-<strong>Motivation</strong></p>
-<p>In military simulations, it is common to use vector data representing natural or human elements of the real world, such as rivers, roads, highways, lakes, forests, and wetlands. These can be represented by hundreds or thousands of polylines or polygons, making the access extremely costly. Acceleration structures (e.g., hash, BVH, and quadtree) are widely used to minimize this cost. The efficiency of these structures is proportional to their refinement &ndash;the area and/or the number of entities encapsulated by each structure&rsquo;s unit. However, in large scenarios, this refinement is limited due to the high memory consumption.</p>
-<p>The purpose of these structures is to break a large dataset into several small ones to access a smaller dataset and thus ensure greater access efficiency. However, there is still a considerable cost to access or traverse the structures and the data they encapsulate. In this context, I developed a middle layer structure to reduce access by shaders to the acceleration structures.</p>
+<strong>Description</strong></p>
+<p>In military simulations, it is common to use vector data representing natural or human elements of the real world, such as rivers, roads, highways, lakes, forests, and wetlands. These can be represented by hundreds or thousands of polylines or polygons, making the access extremely costly. Acceleration structures (e.g., hash, BVH, and quadtree) are widely used to minimize this cost. The efficiency of these structures is proportional to their refinement &ndash;the area and/or the number of entities encapsulated by each structure&rsquo;s unit. However, in large scenarios, this refinement is limited due to the high memory consumption, reducing the performance gains.</p>
+<p>In addition, there is still a considerable cost to traverse these structures and their data. In this context, I developed a middle layer structure to reduce access by shaders to these acceleration structures. The video below compares the access (red fragments) to the acceleration structures before and after the proposed structure. Note when the Optimization is enabled (see the bottom left toggles), the access to acceleration structures decreases drastically (blue fragments mean no access). As a result, performance increases, which doubles in most cases.</p>
 <p><br />
-<br />
-<strong>Solution</strong></p>
-<p>The terrain is rendered in blocks using a quadtree and the CDLOD technique. For this, a dynamic structure was created, linked to the quadtree nodes – called Vector Data Map or simply Map. The Map is represented by a texture assigned to each quadtree’s node during its initialization. The texture covers the same region bounded by the quadtree’s node, and each pixel covers a small portion of that region. Each pixel encodes the presence of one or more vector data at two levels: Fully or Partially inside.</p>
-<p>The purpose of the Map is to indicate the absence of a particular vector data quickly. For example, it is necessary to access the acceleration structures to texturize roads, identifying whether a specific fragment is inside or outside a road. In this case, it is common to get a negative result, meaning that most fragments will be out of a road. In this way, the fragment could quickly be assigned a ground texture rather than a road texture. The cost of this computation is O(1) per fragment that samples the Map and gets the result as True for Fully-Inside and false for Partially-Inside of some vector data. Only fragments that test true for Partially-Inside need to access the acceleration structures. However, the number of cases that fall into this case is generally smaller.</p>
-<p>A bitmask is used to reduce memory consumption, encoding four types of vector data per byte. Furthermore, each texture has a fixed resolution, regardless of the node’s depth it is being linked to, working similarly to a mipmap – nodes close to the camera have higher resolution. Also, TextureAtlas is used to avoid constant locations and avoid memory fragmentation.</p>
-<p>The video below compares the access (red fragments) to the acceleration structures before and after the proposed structure. Note that when the Map is enabled, the access to acceleration structures decreases drastically.</p>
 <video controls>
-    <source src="\splat\splat-data-access.mp4" type="video/mp4">
-</video>
-<p><br /></p>
-<blockquote>
-<p>It is important to note that the Map is different from a splat-maps, which encodes a material rather than information for a given vector data. Splat-maps need a high resolution to get a satisfactory result. The structure presented has no impact on the visualization since the rendering remains vectorial, and the resolution adopted by the Map only impacts performance gains. In addition, the Map&rsquo;s memory consumption is smaller, as it stores up to four types of vector data per byte instead of 1 material per byte, as in the case of a splat-map.</p>
-</blockquote>
-<p><br />
-<br />
-<strong>Results</strong></p>
-<p>When the proposed structure is enabled, the access to acceleration structures is considerably reduced. As a result, performance increases, which doubles in most cases. See the video below.</p>
-<video controls>
-    <source src="\splat\splat-result.mp4" type="video/mp4" class="video">
-</video>
+<source src="\splat\splat-data-access.mp4" type="video/mp4">
+</video></p>
 
         
 

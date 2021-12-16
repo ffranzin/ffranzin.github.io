@@ -158,23 +158,15 @@ video {
 </style>
 <p>New requirements significantly increased the number of simulated game entities, putting the game at a critical stage in terms of performance. In this context, I took responsibility for investigating and fixing performance bottlenecks.</p>
 <p><br />
-<br />
-<strong>Briefly Description</strong></p>
-<p>I performed a scan of several game components such as audio sources, animators, particle systems, and entities' controllers to identify bottlenecks and apply improvements. These components were optimized using Event Systems, and others were disabled according to the objects' distance to the camera - very appropriate since entities are placed sparsely.</p>
-<p>Our physics simulation uses an intermediate <em>Layer</em> between PhysX and Unity to deal with the loss of numerical precision in large-scale scenarios <a href="https://www.scitepress.org/Papers/2021/101945/101945.pdf">(more details)</a>.  With new entities being physically simulated, the solution presented what was already expected: scalability problems. In this context, I assumed the responsibility for identifying improvements for it. After studying how physical simulations work, I identified some issues. It was mostly related to PhysX&rsquo;s data structures and continuous cache miss caused by our Layer. To solve the problem, I changed the Layer approach to minimize architectural conflicts with PhysX. After taking the new approach, I&rsquo;ve also refactored some entities and behaviors to keep the simulation working correctly.</p>
+<strong>Description</strong></p>
+<p>I&rsquo;ve scanned game components such as audio sources, animators, particle systems, and entities' controllers to identify bottlenecks and apply improvements. In addition, our physics simulation uses an intermediate Layer between PhysX and Unity to deal with the loss of numerical precision in large-scale scenarios <a href="https://www.scitepress.org/Papers/2021/101945/101945.pdf">(more details)</a>. With new entities being physically simulated, the solution presented what was already expected: scalability problems. In this context, I assumed the responsibility for identifying improvements for it. After studying how physical simulations work,  I adapted our approach to fixing the architectural conflicts between PhysX&rsquo;s data structures and the continuous cache miss caused by our Layer.</p>
 <p><br />
-<br />
 <strong>Results</strong></p>
-<p>After four months of massive refactoring, optimizing codes, and creating acceleration data structures, performance returned to a level capable of supporting the client&rsquo;s new requirements. In addition, many of the decisions have increased the game&rsquo;s scalability for future needs.</p>
-<p style="color:red">atualizar video..</p>
-<p>The video below focuses on the physics improvements, which causes the more significant performance gains. It shows some test cases simulating 4 ASTROS batteries (composed of ~14 military vehicles each). Initially, the video demonstrates the impact of our physics <em>Layer</em> used to deal with the problem of numerical accuracy in large-scale scenarios. Then, some test cases moving the convoys. It is possible to notice that the movement of some objects already made the application almost unusable. After the improvements, it is possible to see a significant evolution in the performance aspect. On the left are shown before and on the right after the refactorings.</p>
+<p>After four months of massive refactoring, performance returned to a level capable of supporting the client&rsquo;s new requirements. In addition, many of the decisions have increased the game&rsquo;s scalability for future needs.</p>
+<p>The video below shows some performance comparisons of before and after improvements. It shows some test cases moving 4 ASTROS batteries (composed of ~14 military vehicles each). The camera focuses on a particular battery, but another three are moving.  It is possible to notice that the application was unusable for real-time purposes before improvements. On the other hand, it is possible to see a significant evolution in the performance aspect after the improvements.</p>
 <video controls>
     <source src="\performance_tests\performance-comparisons.mp4" type="video/mp4" class="video">
 </video>
-<p><br /></p>
-<blockquote>
-<p>It is essential to highlight that the computer where the tests were done has low computational power compared to the client.</p>
-</blockquote>
 
         
 

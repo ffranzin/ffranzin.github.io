@@ -103,53 +103,63 @@
           <style>
 
 .container {
-  display: table;
-  width: 100%;
-  float: left;
-}
-.container div {
-  display: table-cell;
+  font-size: 0; /*remove white space*/
 }
 
+.section {
+  font-size: 16px; /*reset font size*/
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) { /*breakpoint*/
+  .section {
+    display: block;
+    width: auto;
+  }
+}
+
+p { margin-top: -5px; }
+
 </style>
-<p>I entered the game industry as a 3D modeler, knowledge which I got as a hobby/curiosity. A few years later, I found myself facing several challenges and breaking computational barriers. With six years of experience working as a programmer and technical artist, I acquired in-depth experience in 3D modeling, game and graphics development. In addition, I am also familiar with other processes of the artistic pipeline.</p>
+<p>I entered the game industry as a 3D modeler, knowledge which I got as a hobby/curiosity. A few years later, I found myself facing several challenges and breaking computational barriers. With six years of experience working as a programmer and technical artist, I acquired in-depth experience in 3D modeling, gameplay and graphics programming. In addition, I am also familiar with other processes of the artistic pipeline.</p>
 <p>I like to be involved in challenging tasks, especially those that need performance and/or storage scalability. I&rsquo;m also fascinated with programming challenges mixed with artistic. In this aspect, I am passionate about procedural generation and automated solutions to decorate scenarios. I am an analytical thinker and an effective team worker with an open mind for feedback and new ideas.</p>
 <br/>
 <!DOCTYPE html>
 <html>
 <div class="container">
-<!-- -----------MAIN INTERESTS------------- -->
-  <div>
-	<h3>MAIN INTERESTS</h3>
+  <div class="section">
+  <!-- -----------MAIN INTERESTS------------- -->
+  <h3>MAIN INTERESTS</h3>
 <ul>
 <li style="color:#343a40">Game Development</li>
 <li style="color:#343a40">Computer Graphics</li>
-<li style="color:#343a40" >Real-time Rendering</li>
+<li style="color:#343a40">Real-time Rendering</li>
 <li style="color:#343a40">Procedural Generation</li>
 <li style="color:#343a40">Tech-art</li>
 </ul>
   </div>
   <!-- -----------EDUCATION------------- -->
-  <div>
-  <h3>EDUCATION</h3>
+  <div class="section">
+    <h3>EDUCATION</h3>
 <h4> <i class='fas'>&#xf19d;</i> MSc in Computer Graphics, 2020 </h4> 
-Universidade Federal de Santa Maria
-<br/>
-<br/>
+<p> Universidade Federal de Santa Maria </p>
 <h4> <i class='fas'>&#xf19d;</i> BSc in Computer Science, 2018 </h4>
-Universidade Federal de Santa Maria
+<p> Universidade Federal de Santa Maria </p>
   </div>
   <!-- -----------INFO------------- -->
-  <div>
-<h3>INFO</h3>
+  <div class="section">
+  <h3>INFO</h3>
 <h5> <i class="fas fa-envelope"></i> ffranzin@inf.ufsm.br</h5> 
 <h5> <i class="fas fa-phone-alt"></i> (+55) 55 99168-5461 </h5> 
 <h5> <a style="color:#343a40" href="https://www.linkedin.com/in/ffranzin/"> <i class="fab fa-linkedin"></i>  linkedin.com/in/ffranzin</a> </h5> 
 <h5> <a style="color:#343a40" href="https://github.com/ffranzin">  <i class="fab fa-github"></i>  github.com/ffranzin</a> </h5> 
 <h5> <a style="color:#343a40" href="https://www.google.com/maps/place/Santa+Maria+-+RS/@-29.7772619,-54.1048399,10z/data=!3m1!4b1!4m5!3m4!1s0x9503cb5d0da567bf:0xa44d9c1e7f7f7297!8m2!3d-29.6894984!4d-53.7923441"><i class="fas fa-map-marker-alt"></i> Santa Maria, RS, Brazil</a> </h5> 
+  </div>
 </div>
-</div>
-</div>
+
           
             <style>
                 .bottom-three {
@@ -208,7 +218,7 @@ Universidade Federal de Santa Maria
 
 
     </div>
-
+    
     <style>
         .button {
             background-color: white;

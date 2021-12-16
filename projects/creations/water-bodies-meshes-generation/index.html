@@ -141,25 +141,16 @@
 </style>
 <p>I designed and guided an intern in developing a tool to generate polygonal meshes from mass polygons and polylines datasets, used to represent water planes for lakes and rivers in 3D scenarios.</p>
 <p><br />
-<strong>Motivation</strong></p>
+<strong>Description</strong></p>
 <p>This tool was developed to replace an old solution, which had problems with the scalability between junctions of entities, such as river-river (line-line, in the left), rivers-rivers (lines-lines, in the middle), and river-lake (line-polygon, in the right). This solution took a geometric approach and treated each case of junctions, resulting in a low expandable and challenging to maintain.</p>
 <img src="\water_bodies_mesh_generator\dissolve-example.png" alt="Nature" class="center" width="60%" height=auto>
 <p><br />
-<br />
-<strong>Solution</strong></p>
-<p>To get a simple and scalable solution for different types and amounts of entities' junctions, we developed a raster-based solution.</p>
-<p>The process starts by filling a texture (<strong>Buffering</strong> step, image below), where each pixel represents a small portion of the scenario and is set as a region <em>Inside</em>,
-<em>Outside</em>, or <em>Border</em> of a water body (river and/or lake). Next, the texture is traversed to extract the pixels defined as a border (<strong>Vectorization</strong> step), which will be <strong>Simplified</strong>
+To get a simple and scalable solution for different types and amounts of entities' junctions, we developed a raster-based solution. The process starts by filling a texture (<strong>Buffering</strong> step, image below), where each pixel represents a small portion of the scenario and is set as a region <em>Inside</em>,
+<em>Outside</em>, or <em>Border</em> of a water body (river and/or lake). Next, the texture is traversed to extract the pixels defined as a <em>Border</em> (<strong>Vectorization</strong> step), which will be <strong>Simplified</strong>
 and <strong>Triangulated</strong> in the sequence. It results in a single mesh containing rivers and lakes from the region considered (whole scenario or small blocks for performance reasons). For performance purposes, compute-shader and acceleration structures were used.</p>
 <img src="\water_bodies_mesh_generator\process-step-by-step.png" alt="Nature" class="center" width="70%" height=auto>
 <p><br />
 <br />
-<strong>Results</strong></p>
-<p>The developed solution is simple and easy to maintain and doesn&rsquo;t have restrictions on joining different amounts of rivers and lakes entities.</p>
-<img src="\water_bodies_mesh_generator\preview-2.jpg" alt="Nature" class="center">
-<p><br /></p>
-<img src="\water_bodies_mesh_generator\preview-1.jpg" alt="Nature" class="center">
-<p><br />
 <br />
 More details can be seen <a href="https://www.scitepress.org/Papers/2021/101955/101955.pdf">here</a>.</p>
 
