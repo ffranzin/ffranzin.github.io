@@ -163,12 +163,12 @@ video {
 <p><br /></p>
 <p><strong>Description Technique 1 - Projecting broken glass patterns in screen space</strong></p>
 <p>This approach is designed to simulate broken glass from projectiles (e.g., gunshots). The process consists of detecting impact points with glass surfaces -using raycasts- and projecting some patterns of broken glass around them. The process is entirely done in screen-space, ensuring a correct projection of the patterns even for non-static glass surfaces.</p>
-<img src="\glass_breakage\technique-1-result.png" alt="Nature" class="center">
+<img src="\glass_breakage\technique-1-result.jpg" alt="Nature" class="center">
 <p><br />
 <br /></p>
 <p><strong>Description Technique 2 - Procedural broken glass</strong></p>
 <p>This approach is designed to break larger areas of glass using objects (e.g., stones). For this, a mask and a pattern are used to simulate broken glass. When an object is thrown, many processes are done to update the mask relative to the destroyed region. We also deal with what we call Floating Zones: glass without contact with another surface. For example, in the image below, it is possible to note that the central region of glass will also be destroyed by destroying the only area in contact with the wall.</p>
-<img src="\glass_breakage\floating-zones.png" alt="Nature" class="center">
+<img src="\glass_breakage\floating-zones.jpg" alt="Nature" class="center">
 <p><br />
 <br />
 <strong>Results</strong></p>
