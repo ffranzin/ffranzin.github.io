@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Floating-point Precision on Flavio Franzin</title>
+    <link>https://ffranzin.github.io/tags/floating-point-precision/</link>
+    <description>Recent content in Floating-point Precision on Flavio Franzin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 08 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ffranzin.github.io/tags/floating-point-precision/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accurate Real-time Physics Simulation for Large Worlds</title>
+      <link>https://ffranzin.github.io/publications/accurate-real-time-physics-simulation-for-large-worlds/</link>
+      <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/publications/accurate-real-time-physics-simulation-for-large-worlds/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

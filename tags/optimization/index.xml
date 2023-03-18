@@ -5,7 +5,53 @@
     <link>https://ffranzin.github.io/tags/optimization/</link>
     <description>Recent content in Optimization on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="https://ffranzin.github.io/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 08 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ffranzin.github.io/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Raster-based Approach for Waterbodies Mesh Generation</title>
+      <link>https://ffranzin.github.io/publications/a-raster-based-approach-for-waterbodies-mesh-generation/</link>
+      <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/publications/a-raster-based-approach-for-waterbodies-mesh-generation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPU-Based Rendering and Collision Simulation of Ground Vegetation in Large-Scace Virtual Scenarios</title>
+      <link>https://ffranzin.github.io/publications/gpu-based-rendering-and-collision-simulation-of-ground-vegetation-in-large-scace-virtual-scenarios/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/publications/gpu-based-rendering-and-collision-simulation-of-ground-vegetation-in-large-scace-virtual-scenarios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Procedural Editing of Virtual Terrains Using 3D Bezier Curves</title>
+      <link>https://ffranzin.github.io/publications/procedural-editing-of-virtual-terrains-using-3d-bezier-curves/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/publications/procedural-editing-of-virtual-terrains-using-3d-bezier-curves/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPU-Based Real-Time Procedural Distribution of Vegetation On Large-Scale Virtual Terrains</title>
+      <link>https://ffranzin.github.io/publications/gpu-based-real-time-procedural-distribution-of-vegetation-on-large-scale-virtual-terrains/</link>
+      <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/publications/gpu-based-real-time-procedural-distribution-of-vegetation-on-large-scale-virtual-terrains/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uma Framework para distribuicao, gerenciamento e renderizacao de vegetacao em cenarios virtuais massivos em tempo real</title>
+      <link>https://ffranzin.github.io/publications/uma-framework-para-distribuicao-gerenciamento-e-renderizacao-de-vegetacao-em-cenarios-virtuais-massivos-em-tempo-real/</link>
+      <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/publications/uma-framework-para-distribuicao-gerenciamento-e-renderizacao-de-vegetacao-em-cenarios-virtuais-massivos-em-tempo-real/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Game Assets Optimizations</title>
       <link>https://ffranzin.github.io/projects/creations/game-assets-optimizations/</link>
