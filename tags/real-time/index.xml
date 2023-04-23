@@ -88,13 +88,10 @@ In the context of military simulations, the deformation of terrains and grasses 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ffranzin.github.io/projects/creations/clouds/</guid>
-      <description>.center { display: block; margin-left: auto; margin-right: auto; max-width: 95%; } .row { display: flex; margin-left: auto; margin-right: auto; max-width: 95%; } .column { flex: 25%; padding: 2px; }  I created a volumetric procedural clouds using ray-marching based on the solution proposed by Guerrilla team.
+      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 33%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; }  I created a volumetric procedural clouds using ray-marching technique.
 
 Description
-&amp;hellip;.
-Below are some samples with the results obtained.
-          
-More details can be seen here.</description>
+I have created a solution for real-time volumetric cloud rendering using the raymarching technique.</description>
     </item>
     
   </channel>
