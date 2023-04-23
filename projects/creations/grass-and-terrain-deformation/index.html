@@ -151,14 +151,14 @@
 
 
 </style>
-<p>I developed a solution for the real-time long-lasting grasses deformation and terrain trails according to the vehicles' and characters' movements. This is kept throughout the simulation with little memory overhead.</p>
+<p>I developed a solution for the real-time long-lasting grasses deformation and terrain trails according to the vehicles' and characters' movements.</p>
 <p><br />
 <strong>Motivation</strong></p>
-<p>In the context of our client -military simulations-, the deformation of terrains and grasses according to the movement of military vehicles is dangerous, as it can reveal the position to the enemies. Thus, a feature to simulate this is widely imperative. This functionality was desired but always discarded by the development team due to several computational challenges. The main one was the incalculable storage cost to deform grams and keep them bent for many hours or even days of simulation in large-scale scenarios. Based on that, I prototyped an alternative solution with low storage demand. It was presented to the customer, who aroused much interest. Thus, we improved and integrated the solution into the application.</p>
+<p>In the context of military simulations, the deformation of terrains and grasses according to the movement of military vehicles is dangerous, as it can reveal the position to the enemies. Thus, a feature to simulate this is widely imperative. This functionality was desired but always denied by the development team due to several computational challenges. The main one was the incalculable storage cost to deform grams and keep them bent for many hours or even days of simulation in large-scale scenarios. Based on that, I prototyped an alternative solution that deals with low storage demand. It was presented to the customer, who aroused much interest. Thus, we improved and integrated the solution into the application.</p>
 <p><br />
 <br />
 <strong>Solution</strong></p>
-<p>In the proposed solution, the virtual scenario is segmented using a quadtree. When a quadtree node is visited by some dynamic object, a vector field is assigned for it. For performance purposes, complex 3D objects are aproximated by planes and spheres (image below). The vector of vector fields is deformed when objects move, considering their direction and speed. Once bent, each vector receives a restoration cost according to empirical configurations assigned to the colliders. For example, the above tank&rsquo;s colliders can damage the plants distinctly, where the base&rsquo;s collider only bent plants for short and the tracks' colliders for a long time (we show this behavior in results).</p>
+<p>The approach involves dividing the scenarios into smaller sections using a quadtree and implementing a vector field to determine the direction of plants for each node. The vector fields are updated accordingly to objects move through the scenario. For performance purposes, complex 3D objects are approximated by planes and spheres (image below). When the colliders interact with the grass, vector fields are updated and the cost is assigned to restore each vector, allowing the simulation of different behaviors. For example, if a human disrupts the grass, it can quickly regain its shape, whereas if a vehicle damages the vector field, it may take longer to restore it (you can see both of these behaviors in the accompanying video).</p>
 <img src="\grass_and_terrain _deformation\ColliderExample.jpg" alt="Nature" class="center">
 <p><br />
 In the vertex shader, grasses and small shrubs sample the vector fields to identify their orientation based on the interpolation of the closest vectors. Below we have a color debug showing the direction of the vectors in the vector fields after moving a vehicle. Also, we have the result after rendering, showing the vehicle&rsquo;s path.</p>
@@ -177,7 +177,7 @@ In the vertex shader, grasses and small shrubs sample the vector fields to ident
   </div>
 </div>
 <p><br />
-The vector field is sampled in the fragment shader stage to texture the terrain. The result is used to make a cross product with the up_vector, resulting in a scalar value used to attenuate the fragment&rsquo;s color. It is interesting to highlight deformation in far regions without 3D grams. The two images on the left show the before and after vehicles' movement, highlighting the path by terrain&rsquo;s texturing. The two images on the right show the influence of the trails projected on terrain to improve the blend of deformed grams and the terrain.</p>
+In the fragment shader stage to texture the terrain the vector fields are sampled for a slight color attenuation. Here, the sample in the vector field is used to make a cross product with the up_vector, resulting in a scalar value used to attenuate the terrain fragment&rsquo;s color. It is interesting to highlight deformation in far regions without 3D grams. The two images on the left show the before and after vehicles' movement, highlighting the path by terrain&rsquo;s texturing. The two images on the right show the influence of the trails projected on terrain to improve the blend of deformed grams and the terrain.</p>
   <div class="clearfix">
   <div class="img-container">
   <img src="\grass_and_terrain _deformation\trails_2.jpg" alt="Italy" style="width:100%">
@@ -193,14 +193,11 @@ The vector field is sampled in the fragment shader stage to texture the terrain.
   </div>
 </div>
 <p><br />
-When a quadtree is unrefined, nodes are destroyed -due to the CDLOD technique- and its vector fields are compressed &ndash;using the LZ4 algorithm. When a node is (re)created, we check the existence of a compressed vector field belonging to the region delimited by the node. If it exists, this vector field is decompressed and assigned to the node. In this way, it is possible to maintain deformations for long periods with a low storage cost (comparison below).</p>
-<img src="\grass_and_terrain _deformation\grass-and-terrain-deformation-compression-chart.jpg" alt="Nature" class="left" width="40%" height="40%">
-<p><br />
-Compute-shaders were used in several processes. LOD and GPU-instancing techniques were used to optimize plants' rendering. Non-compressed vector fields are kept in a TextureAtlas to reuse memory, preventing allocations and memory fragmentation.</p>
+Compute-shaders were used to deform and restore the vector fields. LOD and GPU-instancing techniques were used to optimize plants' rendering. Vector fields are kept in a TextureAtlas to reuse memory, preventing allocations and memory fragmentation. Vector fields far way from the camera without dynamic objects close are compressed (using the LZ4 algorithm) to save memory. When needed, the vector fields are decompressed. Then, it is possible to maintain deformations for long periods with a low storage cost. Due to the minimal variation in vector field data, compression rates can be extremely high, resulting in memory savings of 90-95%.</p>
 <p><br />
 <br />
 <strong>Results</strong></p>
-<p>Below, on the left, is shown a demonstration with several colliders interacting with the plants simultaneously. On the right, an example of a vehicle interacting with plants. Note that plants that interact with the base reestablish their original form more quickly than plants that interact with the tank&rsquo;s tracks.</p>
+<p>Below, on the left, is shown a demonstration with several colliders interacting with the plants simultaneously. On the right, is an example of a vehicle interacting with plants. Note that plants that interact with the base reestablish their original form more quickly than plants that interact with the tank&rsquo;s tracks.</p>
  <div class="clearfix">
   <video controls class="video-container">
     <source src="\grass_and_terrain _deformation\grass-deformation-1.mp4" type="video/mp4" class="video">

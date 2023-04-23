@@ -139,10 +139,10 @@
 }
 
 </style>
-<p>I designed and guided an intern in developing a tool to generate polygonal meshes from mass polygons and polylines datasets, used to represent water planes for lakes and rivers in 3D scenarios.</p>
+<p>I designed and guided an intern in developing a tool to generate polygonal meshes from mass polygons and polylines datasets, representing rivers (lines) and lakes (polygons) in large-scale scenarios.</p>
 <p><br />
 <strong>Description</strong></p>
-<p>This tool was developed to replace an old solution, which had problems with the scalability between junctions of entities, such as river-river (line-line, in the left), rivers-rivers (lines-lines, in the middle), and river-lake (line-polygon, in the right). This solution took a geometric approach and treated each case of junctions, resulting in a low expandable and challenging to maintain.</p>
+<p>The purpose of this tool is to replace an outdated solution that struggled with scalability issues at entity junctions, such as river-river (line-line, on the left), rivers-rivers (lines-lines, in the middle), and river-lake (line-polygon, on the right). The previous solution employed a geometric approach that required treating each case of junctions, resulting in a system that was difficult to expand and maintain.</p>
 <img src="\water_bodies_mesh_generator\dissolve-example.jpg" alt="Nature" class="center" width="60%" height=auto>
 <p><br />
 To get a simple and scalable solution for different types and amounts of entities' junctions, we developed a raster-based solution. The process starts by filling a texture (<strong>Buffering</strong> step, image below), where each pixel represents a small portion of the scenario and is set as a region <em>Inside</em>,

@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Flavio Franzin | Game Optimizations</title>
-  <meta property="og:title" content="Flavio Franzin | Game Optimizations" />
+  <title>Flavio Franzin | Volumetric Procedural Clouds</title>
+  <meta property="og:title" content="Flavio Franzin | Volumetric Procedural Clouds" />
   <meta property="og:image" content="https://ffranzin.github.io/perfil.jpg" />
-  <meta name="description" content="I investigated and fixed the performance bottlenecks, improving the overall game&#39;s performance by &#43;30%.">
-  <meta property="og:description" content="I investigated and fixed the performance bottlenecks, improving the overall game&#39;s performance by &#43;30%." />
+  <meta name="description" content="I created a volumetric procedural clouds using ray-marching.">
+  <meta property="og:description" content="I created a volumetric procedural clouds using ray-marching." />
   <meta name="author" content="Flavio Franzin ">
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -106,7 +106,7 @@
 
 
 <li class="breadcrumb-item active">
-  <a href="https://ffranzin.github.io/projects/creations/game-optimizations/">Game Optimizations</a>
+  <a href="https://ffranzin.github.io/projects/creations/clouds/">Volumetric Procedural Clouds</a>
 </li>
 
   </ol>
@@ -117,56 +117,61 @@
 
 <section class="resume-section p-3 p-lg-5 d-flex d-column">
     <div class="my-auto">
-        <h2 class="mb-0"><span class="text-primary">Game Optimizations</span></h2>
+        <h2 class="mb-0"><span class="text-primary">Volumetric Procedural Clouds</span></h2>
         <style>
-* {
-  box-sizing: border-box;
-}
-
-
-.video-container {
-  float: left;
-  width: 50%;
-  padding: 2px;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 50%;
+  max-width: 95%;
 }
 
-
-
-video {
-  width: 99%;
-  height: auto;
-  display: block;
+.row {
+  display: flex;
   margin-left: auto;
   margin-right: auto;
+  max-width: 95%;
 }
 
+.column {
+  flex: 25%;
+  padding: 2px;
+}
 
 </style>
-<p>New requirements significantly increased the number of simulated game entities, putting the game at a critical stage in terms of performance. In this context, I took responsibility for investigating and fixing performance bottlenecks.</p>
+<p>I created a volumetric procedural clouds using ray-marching based on the solution proposed by Guerrilla team.</p>
 <p><br />
 <strong>Description</strong></p>
-<p>I&rsquo;ve scanned game components such as audio sources, animators, particle systems, and entities' controllers to identify bottlenecks and apply improvements. In addition, our physics simulation uses an intermediate Layer between PhysX and Unity to deal with the loss of numerical precision in large-scale scenarios <a href="https://www.scitepress.org/Papers/2021/101945/101945.pdf">(more details)</a>. With new entities being physically simulated, the solution presented what was already expected: scalability problems. In this context, I assumed the responsibility for identifying improvements for it. After studying how physical simulations work,  I adapted our approach to fixing the architectural conflicts between PhysX&rsquo;s data structures and the continuous cache miss caused by our Layer.</p>
+<p>&hellip;.</p>
+<p>Below are some samples with the results obtained.</p>
+</br>
+<div class="clearfix">
+  <div class="img-container-x4">
+    <img src="\clouds\result1.png" style="width:100%">
+  </div>
+   <div class="img-container-x4">
+    <img src="\clouds\result2.png" style="width:100%">
+  </div>
+  <div class="img-container-x4">
+    <img src="\clouds\result3.png" style="width:100%">
+  </div>
+</div>
+</br>
+<div class="clearfix">
+  <div class="img-container-x4">
+    <img src="\clouds\result7.png" style="width:100%">
+  </div>
+   <div class="img-container-x4">
+    <img src="\clouds\result8.png" style="width:100%">
+  </div>
+  <div class="img-container-x4">
+    <img src="\clouds\result5.png" style="width:100%">
+  </div>
+</div>
 <p><br />
-<strong>Results</strong></p>
-<p>After four months of massive refactoring, performance returned to a level capable of supporting the client&rsquo;s new requirements. In addition, many of the decisions have increased the game&rsquo;s scalability for future needs.</p>
-<p>The video below shows some performance comparisons of before and after improvements. It shows some test cases moving 4 ASTROS batteries (composed of ~14 military vehicles each). The camera focuses on a particular battery, but another three are moving.  It is possible to notice that the application was unusable for real-time purposes before improvements. On the other hand, it is possible to see a significant evolution in the performance aspect after the improvements.</p>
-<video controls>
-    <source src="\performance_tests\performance-comparisons.mp4" type="video/mp4" class="video">
-</video>
+<br />
+<br />
+More details can be seen <a href="https://drive.google.com/file/d/1noASBny65h6zpevrDzvJouvJP1lN7T7T/view?usp=sharing">here</a>.</p>
 
         
 
@@ -183,13 +188,13 @@ video {
 
 <ul class="tags">
     
-    <li><text_capitalize><a class="tag" href="/tags/optimization">Optimization</a></text_capitalize></li>
+    <li><text_capitalize><a class="tag" href="/tags/shader">Shader</a></text_capitalize></li>
     
-    <li><text_capitalize><a class="tag" href="/tags/performance">Performance</a></text_capitalize></li>
+    <li><text_capitalize><a class="tag" href="/tags/computer-graphics">Computer Graphics</a></text_capitalize></li>
     
-    <li><text_capitalize><a class="tag" href="/tags/memory-management">Memory Management</a></text_capitalize></li>
+    <li><text_capitalize><a class="tag" href="/tags/procedural">Procedural</a></text_capitalize></li>
     
-    <li><text_capitalize><a class="tag" href="/tags/data-structure">Data Structure</a></text_capitalize></li>
+    <li><text_capitalize><a class="tag" href="/tags/real-time">Real-time</a></text_capitalize></li>
     
 </ul>
 

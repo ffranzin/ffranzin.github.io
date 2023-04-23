@@ -153,12 +153,12 @@
   border-right:1px solid #000;
 }
 </style>
-<p>I encouraged managers and guided artists in optimizing 3D assets and game scenarios to create real-time cutscenes, avoiding several days of rendering after changes.</p>
+<p>I encouraged managers and guided artists in optimizing 3D assets and game scenarios to create real-time cutscenes, resulting in more manageable and less time-consuming changes.</p>
 <p><br />
 <strong>Description</strong></p>
-<p>Due to over-detailed 3D assets, we rendered offline cutscenes for game animations. As a result, minor changes took days to re-render these cutscenes. In addition, it is common to receive change requests of the client, increasing headaches and rework. Based on that, I did optimizations tests for proof-of-concept and introduced the new approach for managers and colleagues, rendering the entire scenario in real-time.</p>
-<p>From there, I guided artists to optimize 3D assets and game scenarios. Initially, objects' meshes were combined to reduce the number of objects and materials to reduce draw-calls. In a second moment, we worked with the objects' geometries, which had an immense amount of vertices and a disparity between object size and level of detail. Some small and occluded objects had an extreme level of detail, adding a high rendering cost.</p>
-<p>Below, we demonstrate a comparison of the before (left) and after (right) improvements applied to one of the 3D models.</p>
+<p>Due to over-detailed 3D assets, we had a higgh rendering cost and was obligated to render cutscenes for game animations offline. Consequently, minor changes took days to re-render these cutscenes. In addition, it is common to receive change requests of the client, increasing headaches and rework. To address these issues, I conducted optimizations tests for proof-of-concept and introduced the new approach for managers and colleagues, rendering the entire scenario in real-time. To accomplish this, I optimized the 3D models and followed best practices for modeling/performance, considering my undestanding about the low-level of rendering.</p>
+<p>After my tests, I guided artists to optimize all 3D assets and game scenarios. Initially, we combined the meshes of objects to reduce the number of objects and materials, focusing on reducing draw-calls. In a second phase, we worked on the geometries of objects, which had an excessive number of vertices and a disparity between object size and level of detail. In this case, many small and occluded objects had an extreme level of detail that added high rendering costs.</p>
+<p>Below, a demonstration a comparison of the 3D model before (left) and after (right) implementing the improvements.</p>
 <div class="clearfix">
   <div class="img-container vertical-line">
   <img src="\technical-artist\TBC\TBC_old.jpg" alt="Italy" style="width:100%">
@@ -172,9 +172,9 @@
 <p>There were also significant gains in the vehicle&rsquo;s internal parts, but it cannot be shown for privacy reasons.</p>
 </blockquote>
 <p><br />
-<br />
-<strong>Results</strong></p>
-<p>After the improvements, the cutscenes were converted to animations running in real-time using the Unity engine. Changes are now far manageable and less time-consuming. It is also possible to keep software up to date as new technologies, such as more realistic rendering methods or resolutions (e.g., full HD, 4K). All this is possible through a simple game&rsquo;s rebuild instead of hours -or even days- of rendering.</p>
+<br /></p>
+<p><strong>Results</strong></p>
+<p>After the improvements, the cutscenes were converted to animations running in real-time using the Unity engine. Changes are now far more manageable and less time-consuming. It is also possible to keep software up to date with new technologies, such as more realistic rendering methods or resolutions (e.g., full HD, 4K). This is possible just by doing a simple game&rsquo;s rebuild instead of hours -or even days- of rendering cutscenes.</p>
 
         
 

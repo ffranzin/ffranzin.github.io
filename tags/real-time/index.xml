@@ -49,7 +49,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ffranzin.github.io/projects/creations/game-assets-optimizations/</guid>
-      <description>* { box-sizing: border-box; } .img-container { float: left; width: 49%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 70%; } #vertical-line { float: left; height: 500px; width: 1px; background-color: black; } .vertical-line { border-right:1px solid #000; }  I encouraged managers and guided artists in optimizing 3D assets and game scenarios to create real-time cutscenes, avoiding several days of rendering after changes.</description>
+      <description>* { box-sizing: border-box; } .img-container { float: left; width: 49%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 70%; } #vertical-line { float: left; height: 500px; width: 1px; background-color: black; } .vertical-line { border-right:1px solid #000; }  I encouraged managers and guided artists in optimizing 3D assets and game scenarios to create real-time cutscenes, resulting in more manageable and less time-consuming changes.</description>
     </item>
     
     <item>
@@ -58,7 +58,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ffranzin.github.io/projects/creations/grass-and-terrain-deformation/</guid>
-      <description>* { box-sizing: border-box; } .img-container { float: left; width: 25%; padding: 2px; } .video-container { float: left; width: 50%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 50%; }  I developed a solution for the real-time long-lasting grasses deformation and terrain trails according to the vehicles&#39; and characters&#39; movements. This is kept throughout the simulation with little memory overhead.</description>
+      <description>* { box-sizing: border-box; } .img-container { float: left; width: 25%; padding: 2px; } .video-container { float: left; width: 50%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 50%; }  I developed a solution for the real-time long-lasting grasses deformation and terrain trails according to the vehicles&#39; and characters&#39; movements.
+
+Motivation
+In the context of military simulations, the deformation of terrains and grasses according to the movement of military vehicles is dangerous, as it can reveal the position to the enemies.</description>
     </item>
     
     <item>
@@ -77,6 +80,21 @@
       
       <guid>https://ffranzin.github.io/projects/creations/vector-feature-map/</guid>
       <description>video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; } #player-overlay { position: absolute; display: none; top: 0; left: 0; width: 100%; height: 100%; background-color: #000 z-index:999; }  I developed a dynamic structure to optimize access to mass datasets of polygons and polylines, representing areas like forests, lakes, roads, and rivers. This structure accelerated the terrain rendering ーwhich these data are projected by texturingー by +80% on average.</description>
+    </item>
+    
+    <item>
+      <title>Volumetric Procedural Clouds</title>
+      <link>https://ffranzin.github.io/projects/creations/clouds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/projects/creations/clouds/</guid>
+      <description>.center { display: block; margin-left: auto; margin-right: auto; max-width: 95%; } .row { display: flex; margin-left: auto; margin-right: auto; max-width: 95%; } .column { flex: 25%; padding: 2px; }  I created a volumetric procedural clouds using ray-marching based on the solution proposed by Guerrilla team.
+
+Description
+&amp;hellip;.
+Below are some samples with the results obtained.
+          
+More details can be seen here.</description>
     </item>
     
   </channel>
