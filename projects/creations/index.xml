@@ -8,21 +8,33 @@
     <language>pt-br</language>
     <lastBuildDate>Tue, 07 Jan 2020 15:00:28 +0000</lastBuildDate><atom:link href="https://ffranzin.github.io/projects/creations/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Art and tech-art</title>
-      <link>https://ffranzin.github.io/projects/creations/art-and-tech-art/</link>
+      <title>3D modeling - Blender</title>
+      <link>https://ffranzin.github.io/projects/creations/blender_modeling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ffranzin.github.io/projects/creations/art-and-tech-art/</guid>
+      <guid>https://ffranzin.github.io/projects/creations/blender_modeling/</guid>
       <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  
 Mossberg
      
-Granade Launcher L79
-      
 Flamethrower
       
-BBS-CM
+BBS-CM (High-poly)
       
-Vehicles ASTROS II MK-6</description>
+Granade Launcher L79</description>
+    </item>
+    
+    <item>
+      <title>3D sculpting - ZBrush</title>
+      <link>https://ffranzin.github.io/projects/creations/zbrush_sculpting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/projects/creations/zbrush_sculpting/</guid>
+      <description> * { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  Octopus
+     
+Pumpkin Head
+     
+Sword
+   </description>
     </item>
     
     <item>
@@ -77,6 +89,23 @@ I was involved in the system design and also modeled many bridge parts to compos
     </item>
     
     <item>
+      <title>Procedural Materials - Substance Designer</title>
+      <link>https://ffranzin.github.io/projects/creations/substance_designer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/projects/creations/substance_designer/</guid>
+      <description> * { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  
+Aged Wood
+    
+Muddy with Trails
+    
+Bark with Knots and moss
+    
+Ground with Roots
+   </description>
+    </item>
+    
+    <item>
       <title>Procedural Vegetation System</title>
       <link>https://ffranzin.github.io/projects/creations/procedural-vegetation-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -92,6 +121,19 @@ I was involved in the system design and also modeled many bridge parts to compos
       
       <guid>https://ffranzin.github.io/projects/creations/vector-feature-map/</guid>
       <description>video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; } #player-overlay { position: absolute; display: none; top: 0; left: 0; width: 100%; height: 100%; background-color: #000 z-index:999; }  I developed a dynamic structure to optimize access to mass datasets of polygons and polylines, representing areas like forests, lakes, roads, and rivers. This structure accelerated the terrain rendering ーwhich these data are projected by texturingー by +80% on average.</description>
+    </item>
+    
+    <item>
+      <title>Vehicles creation - 3D artist</title>
+      <link>https://ffranzin.github.io/projects/creations/full_artist_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/projects/creations/full_artist_process/</guid>
+      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  
+Vehicles ASTROS II MK-6
+        Coded animation for vehicle leveling and a mechanical arm using inverse kinematics
+  
+ Coded animation for vehicle&amp;rsquo;s mechanical arm using inverse kinematics</description>
     </item>
     
     <item>
