@@ -162,10 +162,6 @@
     <loc>https://ffranzin.github.io/tags/web-development/</loc>
     <lastmod>2009-01-01T14:09:10+00:00</lastmod>
   </url><url>
-    <loc>https://ffranzin.github.io/projects/creations/blender_modeling/</loc>
-  </url><url>
-    <loc>https://ffranzin.github.io/projects/creations/zbrush_sculpting/</loc>
-  </url><url>
     <loc>https://ffranzin.github.io/tags/animation/</loc>
   </url><url>
     <loc>https://ffranzin.github.io/tags/blender/</loc>
@@ -176,9 +172,13 @@
   </url><url>
     <loc>https://ffranzin.github.io/tags/computer-graphics/</loc>
   </url><url>
+    <loc>https://ffranzin.github.io/tags/cuda/</loc>
+  </url><url>
     <loc>https://ffranzin.github.io/tags/data-compression/</loc>
   </url><url>
     <loc>https://ffranzin.github.io/tags/data-structure/</loc>
+  </url><url>
+    <loc>https://ffranzin.github.io/projects/creations/facematch/</loc>
   </url><url>
     <loc>https://ffranzin.github.io/projects/creations/game-assets-optimizations/</loc>
   </url><url>
@@ -194,6 +194,8 @@
   </url><url>
     <loc>https://ffranzin.github.io/tags/modeling/</loc>
   </url><url>
+    <loc>https://ffranzin.github.io/projects/creations/blender_modeling/</loc>
+  </url><url>
     <loc>https://ffranzin.github.io/tags/performance/</loc>
   </url><url>
     <loc>https://ffranzin.github.io/projects/creations/procedural-bridge-system/</loc>
@@ -207,6 +209,8 @@
     <loc>https://ffranzin.github.io/tags/programming/</loc>
   </url><url>
     <loc>https://ffranzin.github.io/tags/sculpting/</loc>
+  </url><url>
+    <loc>https://ffranzin.github.io/projects/creations/zbrush_sculpting/</loc>
   </url><url>
     <loc>https://ffranzin.github.io/search/</loc>
     <priority>0.1</priority>

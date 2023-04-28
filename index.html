@@ -124,8 +124,9 @@
 p { margin-top: -5px; }
 
 </style>
-<p>I began my journey in the game industry as a 3D modeler, initially pursuing it as a hobby. A few months later, as a Game Developer, I found myself facing several challenges and breaking computational barriers. With six years of experience, I acquired experience in scripting, graphics, optimizations, and 3D modeling. I also have a solid understanding of the entire artistic pipeline and often guide artists in creating assets optimized for real-time games, acting as a bridge between artists and engineers, and even taking on artistic and programming responsibilities to develop assets.</p>
-<p>As a programmer and an art enthusiast, I am fascinated by combining my programming and artistic skills, such as tasks involving procedural generation and automated solutions for decorating scenarios. Additionally, I am passionate about tasks that present performance challenges and investigating and fixing performance bottlenecks.</p>
+<p>A few months after starting my journey as a hobbyist 3D modeler, I landed my first job as a Technical Artist at SIS-ASTROS, where I contributed to developing the largest 3D military simulator for the Brazilian Army. Leveraging my programming background, I quickly transitioned into a Game Developer and participated in the design and development of many key features for the simulator and also for an engine used to visualize large-scale landscapes.</p>
+<p>With six years of experience, I have expertise in scripting, graphics, optimizations, and 3D modeling. I also have a solid understanding of the entire artistic pipeline and frequently guide artists in optimizing assets for real-time games. I assume both artist and programming responsibilities to develop assignments.</p>
+<p>As a programmer and an art enthusiast, I am fascinated by combining my programming and artistic skills, including procedural generation and automated solutions for decorating scenarios. Additionally, I am passionate about tasks that present performance challenges and investigating and fixing performance bottlenecks.</p>
 <!DOCTYPE html>
 <html>
 <div class="container">
@@ -161,31 +162,36 @@ p { margin-top: -5px; }
 </div>
 <br/>
 <br/>
-<h3>PROJECTS</h3>
+<h3>PROJECTS (<a href="https://drive.google.com/file/d/1noASBny65h6zpevrDzvJouvJP1lN7T7T/view?usp=sharing">SEE ALL</a>)</h3>
 <style>
 * {
   box-sizing: border-box;
 }
 
 
+
 .img-container-x5 {
   float: left;
-  width: 19%;
+  width: 23%;
   position: relative;
   overflow: hidden;
   margin: 1px;
 }
 
 .img-container-x5 img {
-  width: 300px;
-  height: 180px;
+  width: 100%;
+  height: auto;
+  max-height: 100%;
   transition: transform 0.5s ease;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  object-fit: cover;
 }
+
 
 .img-container-x5:hover img {
   transform: scale(1.2);
 }
+
 
 .img-container-x5 .centered-text {
   position: absolute;
@@ -195,9 +201,11 @@ p { margin-top: -5px; }
   opacity: 0;
   transition: opacity 0.5s ease;
   text-align: center;
+  font-weight: bold;
   color: white;
-  font-size: 20px;
+  font-size: 1.5vw; /* use a relative font size */
   white-space: nowrap;
+  text-shadow: 2px 2px 2px black;
 }
 
 
@@ -226,6 +234,12 @@ p { margin-top: -5px; }
     </a>
   </div>
   <div class="img-container-x5">
+    <a href="./projects/creations/full_artist_process/">
+      <img src="\initial_page\full_creation.jpg" alt="Image 5">
+      <div class="centered-text">Full Creation<br/>(Modeling, Texturing,<br/> Animation)</div>
+    </a>
+  </div>
+  <div class="img-container-x5">
     <a href="./projects/creations/blender_modeling/">
       <img src="\initial_page\blender.jpg" alt="Image 3">
       <div class="centered-text">Modeling<br/>(Blender)</div>
@@ -237,16 +251,10 @@ p { margin-top: -5px; }
       <div class="centered-text">Deforming Grass<br/>(Coding)</div>
     </a>
   </div>
-  <div class="img-container-x5">
-    <a href="./projects/creations/full_artist_process/">
-      <img src="\initial_page\full_creation.jpg" alt="Image 5">
-      <div class="centered-text">Full Creation<br/>(Modeling, Texturing,<br/> Animation)</div>
-    </a>
-  </div>
  <div class="img-container-x5">
     <a href="./projects/creations/zbrush_sculpting/">
       <img src="\initial_page\zbrush.PNG" alt="Image 5">
-      <div class="centered-text">ZBrush<br/>(Sculpting)</div>
+      <div class="centered-text">Sculpting<br/>(ZBrush)</div>
     </a>
   </div> 
   <div class="img-container-x5">
@@ -256,14 +264,14 @@ p { margin-top: -5px; }
     </a>
   </div>
   <div class="img-container-x5">
-    <a href="./projects/creations/breaking-glass/">
-      <img src="\initial_page\glass.PNG" alt="Image 5">
-      <div class="centered-text">Breaking Glass<br/>(Coding)</div>
+    <a href="./projects/creations/game-assets-optimizations/">
+      <img src="\initial_page\assets_optimization.png" alt="Image 5">
+      <div class="centered-text">3D Assets Optimizations<br/>(Modeling)</div>
     </a>
-  </div> 
+  </div>
     <div class="img-container-x5">
     <a href="./projects/creations/game-optimizations/">
-      <img src="\initial_page\performance.png" alt="Image 5">
+      <img src="\initial_page\performance_fps.png" alt="Image 5">
       <div class="centered-text">Game Optimizations<br/>(Coding)</div>
     </a>
   </div>
@@ -274,25 +282,18 @@ p { margin-top: -5px; }
     </a>
   </div>  
   <div class="img-container-x5">
-    <a href="./projects/creations/water-bodies-meshes-generation/">
-      <img src="\initial_page\water.jpg" alt="Image 5">
-      <div class="centered-text">Water Planes<br/>Mesh Generation<br/>(Coding, Tool, Mentoring)</div>
+    <a href="./projects/creations/facematch/">
+      <img src="\initial_page\facematch.jpg" alt="Image 5">
+      <div class="centered-text">From Days to Minutes<br/>using GPU power<br/>(Optimization)</div>
     </a>
   </div>
-  <div class="img-container-x5">
-    <a href="./projects/creations/game-assets-optimizations/">
-      <img src="\initial_page\assets_optimization.png" alt="Image 5">
-      <div class="centered-text">3D Assets Optimizations<br/>(Modeling)</div>
+   <div class="img-container-x5">
+    <a href="./projects/creations/breaking-glass/">
+      <img src="\initial_page\glass.PNG" alt="Image 5">
+      <div class="centered-text">Breaking Glass<br/>(Coding)</div>
     </a>
-  </div>
-  <div class="img-container-x5">
-    <a href="./projects/creations/procedural-bridge-system/">
-      <img src="\initial_page\bridges.jpg" alt="Image 5">
-      <div class="centered-text">Procedural Bridges<br/>(Modeling)</div>
-    </a>
-  </div>
+  </div> 
 </div>
-
           
             <style>
                 .bottom-three {

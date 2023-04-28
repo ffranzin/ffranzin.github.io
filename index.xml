@@ -99,42 +99,24 @@
     </item>
     
     <item>
-      <title>3D modeling - Blender</title>
-      <link>https://ffranzin.github.io/projects/creations/blender_modeling/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ffranzin.github.io/projects/creations/blender_modeling/</guid>
-      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  
-Mossberg
-     
-Flamethrower
-      
-BBS-CM (High-poly)
-      
-Granade Launcher L79</description>
-    </item>
-    
-    <item>
-      <title>3D sculpting - ZBrush</title>
-      <link>https://ffranzin.github.io/projects/creations/zbrush_sculpting/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ffranzin.github.io/projects/creations/zbrush_sculpting/</guid>
-      <description> * { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  Octopus
-     
-Pumpkin Head
-     
-Sword
-   </description>
-    </item>
-    
-    <item>
       <title>Break Glass</title>
       <link>https://ffranzin.github.io/projects/creations/breaking-glass/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ffranzin.github.io/projects/creations/breaking-glass/</guid>
       <description>.center { display: block; margin-left: auto; margin-right: auto; max-width: 95%; } .row { display: flex; margin-left: auto; margin-right: auto; max-width: 95%; } .column { flex: 25%; padding: 2px; } video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; } #player-overlay { position: absolute; display: none; top: 0; left: 0; width: 100%; height: 100%; background-color: #000 z-index:999; }  I prototyped two solutions to break glass.</description>
+    </item>
+    
+    <item>
+      <title>Facial Recognition Optimization</title>
+      <link>https://ffranzin.github.io/projects/creations/facematch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/projects/creations/facematch/</guid>
+      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  I proposed and migrated a feature that compares millions of human faces to use GPU power.
+
+Description
+I recently made a breakthrough in the field of face recognition technology by converting a feature that was previously limited to CPU processing to GPU processing using Cuda.</description>
     </item>
     
     <item>
@@ -165,6 +147,22 @@ Sword
 
 Motivation
 In the context of military simulations, the deformation of terrains and grasses according to the movement of military vehicles is dangerous, as it can reveal the position to the enemies.</description>
+    </item>
+    
+    <item>
+      <title>Modeling (Blender)</title>
+      <link>https://ffranzin.github.io/projects/creations/blender_modeling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/projects/creations/blender_modeling/</guid>
+      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  
+Mossberg
+     
+Flamethrower
+      
+BBS-CM (High-poly)
+      
+Granade Launcher L79</description>
     </item>
     
     <item>
@@ -203,6 +201,20 @@ Ground with Roots
       
       <guid>https://ffranzin.github.io/projects/creations/procedural-vegetation-system/</guid>
       <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 33%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; }  To solve the limitations of an existing solution, I designed and developed a robust GPU-based vegetation system capable of handling thousands of trees and small plants efficiently in real-time.</description>
+    </item>
+    
+    <item>
+      <title>Sculpting (ZBrush)</title>
+      <link>https://ffranzin.github.io/projects/creations/zbrush_sculpting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/projects/creations/zbrush_sculpting/</guid>
+      <description> * { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  Octopus
+     
+Pumpkin Head
+     
+Sword
+   </description>
     </item>
     
     <item>
