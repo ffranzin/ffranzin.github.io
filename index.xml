@@ -156,6 +156,21 @@ Granade Launcher L79</description>
     </item>
     
     <item>
+      <title>Procedural 3D - Houdini</title>
+      <link>https://ffranzin.github.io/projects/creations/houdini/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/projects/creations/houdini/</guid>
+      <description> * { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  
+Dusty terrain
+  
+Fiery terrain
+  
+Irregular Ground stone
+  </description>
+    </item>
+    
+    <item>
       <title>Procedural Bridge System</title>
       <link>https://ffranzin.github.io/projects/creations/procedural-bridge-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
