@@ -102,34 +102,51 @@
         <div>
           <style>
 
-.container {
-  font-size: 0; /*remove white space*/
-}
-
-.section {
-  font-size: 16px; /*reset font size*/
-  display: inline-block;
-  vertical-align: top;
-  width: 33%;
-  box-sizing: border-box;
-}
-
-@media (max-width: 768px) { /*breakpoint*/
-  .section {
-    display: block;
-    width: auto;
+  .container {
+    font-size: 0; /* remove white space */
+    display: flex;
+    flex-wrap: wrap;
   }
-}
 
-p { margin-top: -5px; }
+  .section {
+    font-size: 15px; /* reset font size */
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  @media (max-width: 768px) { /* breakpoint */
+    .section {
+      width: 50%; /* Adjusted for smaller screens */
+    }
+  }
+
+  p {
+    margin-top: -5px;
+  }
 
 </style>
-<p>A few months after starting my journey as a hobbyist 3D modeler, I landed my first job as a Technical Artist at SIS-ASTROS, where I contributed to developing the largest 3D military simulator for the Brazilian Army. Leveraging my programming background, I quickly transitioned into a Game Developer and participated in the design and development of many key features for the simulator and also for an engine used to visualize large-scale landscapes.</p>
-<p>With six years of experience, I have expertise in scripting, graphics, optimizations, and 3D modeling. With a solid understanding of the entire artistic pipeline, I often guide artists in optimizing assets for games, or even assume both artist and programming responsibilities to develop assignments.</p>
-<p>As a programmer and an art enthusiast, I am fascinated by combining my programming and artistic skills, including procedural generation and automated solutions for decorating scenarios. Additionally, I am passionate about tasks that present performance challenges and investigating and fixing performance bottlenecks.</p>
+<p>Passionate about combining my programming and artistic skills, I am an experienced Technical Artist and Game Developer. Over the last 7 years, I have contributed to developing the largest 3D military training simulator for the Brazilian Army at SIS-ASTROS. As a small team member, I used many hats and worked with scripting, gameplay, graphics, tools, 3D modeling, proceduralism, and CPU/GPU optimizations.</p>
+<p>As a Game Developer, I have experience prototyping and developing features for gameplay and graphics resources, ensuring clean, optimized, and well-structured code. I also investigate and fix performance bottlenecks to enhance the users' immersion experience.</p>
+<p>As a Technical Artist, I reduce the artists' workload by creating tools and automated solutions to decorate scenarios procedurally. Additionally, I provide technical feedback for artists to create optimized assets for real-time games, ensuring a good balance of performance and visuals.</p>
 <!DOCTYPE html>
 <html>
 <div class="container">
+  <div class="section">
+  <!-- -----------MAIN SKILLS------------- -->
+  <h3>MAIN SKILLS</h3>
+<ul>
+<li style="color:#343a40">C# (.NET)</li>
+<li style="color:#343a40">Shaders (HLSL and node-based)</li>
+<li style="color:#343a40">Compute Shaders</li>
+<li style="color:#343a40">Unity</li>
+<li style="color:#343a40">Blender (3D modeling)</li>
+<li style="color:#343a40">Substance Designer</li>
+<li style="color:#343a40">Profiling and optimizations</li>
+<li style="color:#343a40">Houdini (learning)</li>
+<li style="color:#343a40">C/C++ (rusty)</li>
+</ul>
+ </div>
   <div class="section">
   <!-- -----------MAIN INTERESTS------------- -->
   <h3>MAIN INTERESTS</h3>
@@ -146,9 +163,9 @@ p { margin-top: -5px; }
   <div class="section">
     <h3>EDUCATION</h3>
 <h4> <i class='fas'>&#xf19d;</i> MSc in Computer Graphics </h4> 
-<p> Federal University of Santa Maria, Brazil </p>
+<p> Federal University of Santa Maria </p>
 <h4> <i class='fas'>&#xf19d;</i> BSc in Computer Science </h4>
-<p> Federal University of Santa Maria, Brazil </p>
+<p> Federal University of Santa Maria </p>
   </div>
   <!-- -----------INFO------------- -->
   <div class="section">
@@ -162,7 +179,7 @@ p { margin-top: -5px; }
 </div>
 <br/>
 <br/>
-<h3>PROJECTS (<a href="./#projects">SEE ALL</a>)</h3>
+<h3>PROJECTS (<a href="./#projects/creations">SEE ALL</a>)</h3>
 <style>
 * {
   box-sizing: border-box;
@@ -284,7 +301,7 @@ p { margin-top: -5px; }
   <div class="img-container-x5">
     <a href="./projects/creations/houdini/">
       <img src="\initial_page\dusty_render.jpg" alt="Image 5">
-      <div class="centered-text">Procedural generation<br/>(Houdini)</div>
+      <div class="centered-text">Procedural Generation<br/>(Houdini)</div>
     </a>
   </div>
    <div class="img-container-x5">
@@ -295,6 +312,7 @@ p { margin-top: -5px; }
   </div> 
 </div>
 <style>
+
 
           
             <style>
@@ -361,7 +379,6 @@ p { margin-top: -5px; }
             color: #c05c3c;
         }
     </style>
-
 
 </section>
 
@@ -502,17 +519,11 @@ This page represents the landing page for "creations" section. It is also shown 
     
     <li><text_capitalize><a class="tag" href="/tags/shaders">Shaders</a></text_capitalize></li>
     
-    <li><text_capitalize><a class="tag" href="/tags/data-compression">Data compression</a></text_capitalize></li>
-    
     <li><text_capitalize><a class="tag" href="/tags/real-time">Real-time</a></text_capitalize></li>
     
     <li><text_capitalize><a class="tag" href="/tags/gpu-based">GPU-Based</a></text_capitalize></li>
     
-    <li><text_capitalize><a class="tag" href="/tags/collision-simulation">Collision Simulation</a></text_capitalize></li>
-    
     <li><text_capitalize><a class="tag" href="/tags/large-scale-scenario">Large-Scale Scenario</a></text_capitalize></li>
-    
-    <li><text_capitalize><a class="tag" href="/tags/terrain">Terrain</a></text_capitalize></li>
     
 </ul>
 </div>

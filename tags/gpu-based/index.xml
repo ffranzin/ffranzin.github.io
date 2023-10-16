@@ -35,6 +35,18 @@
     </item>
     
     <item>
+      <title>Facial Recognition Optimization</title>
+      <link>https://ffranzin.github.io/projects/creations/facematch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ffranzin.github.io/projects/creations/facematch/</guid>
+      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  I proposed and migrated a feature that compares millions of human faces to use GPU power.
+
+Description
+I recently made a breakthrough in the field of face recognition technology by converting a feature that was previously limited to CPU processing to GPU processing using Cuda.</description>
+    </item>
+    
+    <item>
       <title>Grass Deformation and Terrain Trails</title>
       <link>https://ffranzin.github.io/projects/creations/grass-and-terrain-deformation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
