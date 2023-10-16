@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Flavio Franzin</title>
-    <link>./projects/</link>
+    <link>https://ffranzin.github.io/projects/</link>
     <description>Recent content in Projects on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 07 Jan 2020 15:00:28 +0000</lastBuildDate><atom:link href="./projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jan 2020 15:00:28 +0000</lastBuildDate><atom:link href="https://ffranzin.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

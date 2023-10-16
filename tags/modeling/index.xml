@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Modeling on Flavio Franzin</title>
-    <link>./tags/modeling/</link>
+    <link>https://ffranzin.github.io/tags/modeling/</link>
     <description>Recent content in Modeling on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="./tags/modeling/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language><atom:link href="https://ffranzin.github.io/tags/modeling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Modeling (Blender)</title>
-      <link>./projects/creations/blender_modeling/</link>
+      <link>https://ffranzin.github.io/projects/creations/blender_modeling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./projects/creations/blender_modeling/</guid>
+      <guid>https://ffranzin.github.io/projects/creations/blender_modeling/</guid>
       <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  
 Mossberg
      
@@ -24,10 +24,10 @@ Granade Launcher L79</description>
     
     <item>
       <title>Procedural Bridge System</title>
-      <link>./projects/creations/procedural-bridge-system/</link>
+      <link>https://ffranzin.github.io/projects/creations/procedural-bridge-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./projects/creations/procedural-bridge-system/</guid>
+      <guid>https://ffranzin.github.io/projects/creations/procedural-bridge-system/</guid>
       <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 85%; }  I modeled a set of 3D bridges parts to compose a procedural bridge system.
 
 Description

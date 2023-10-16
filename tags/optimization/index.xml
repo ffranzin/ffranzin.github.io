@@ -2,62 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Optimization on Flavio Franzin</title>
-    <link>./tags/optimization/</link>
+    <link>https://ffranzin.github.io/tags/optimization/</link>
     <description>Recent content in Optimization on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Fri, 08 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="./tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ffranzin.github.io/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Raster-based Approach for Waterbodies Mesh Generation</title>
-      <link>./publications/a-raster-based-approach-for-waterbodies-mesh-generation/</link>
+      <link>https://ffranzin.github.io/publications/a-raster-based-approach-for-waterbodies-mesh-generation/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>./publications/a-raster-based-approach-for-waterbodies-mesh-generation/</guid>
+      <guid>https://ffranzin.github.io/publications/a-raster-based-approach-for-waterbodies-mesh-generation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GPU-Based Rendering and Collision Simulation of Ground Vegetation in Large-Scace Virtual Scenarios</title>
-      <link>./publications/gpu-based-rendering-and-collision-simulation-of-ground-vegetation-in-large-scace-virtual-scenarios/</link>
+      <link>https://ffranzin.github.io/publications/gpu-based-rendering-and-collision-simulation-of-ground-vegetation-in-large-scace-virtual-scenarios/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>./publications/gpu-based-rendering-and-collision-simulation-of-ground-vegetation-in-large-scace-virtual-scenarios/</guid>
+      <guid>https://ffranzin.github.io/publications/gpu-based-rendering-and-collision-simulation-of-ground-vegetation-in-large-scace-virtual-scenarios/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Procedural Editing of Virtual Terrains Using 3D Bezier Curves</title>
-      <link>./publications/procedural-editing-of-virtual-terrains-using-3d-bezier-curves/</link>
+      <link>https://ffranzin.github.io/publications/procedural-editing-of-virtual-terrains-using-3d-bezier-curves/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>./publications/procedural-editing-of-virtual-terrains-using-3d-bezier-curves/</guid>
+      <guid>https://ffranzin.github.io/publications/procedural-editing-of-virtual-terrains-using-3d-bezier-curves/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GPU-Based Real-Time Procedural Distribution of Vegetation On Large-Scale Virtual Terrains</title>
-      <link>./publications/gpu-based-real-time-procedural-distribution-of-vegetation-on-large-scale-virtual-terrains/</link>
+      <link>https://ffranzin.github.io/publications/gpu-based-real-time-procedural-distribution-of-vegetation-on-large-scale-virtual-terrains/</link>
       <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>./publications/gpu-based-real-time-procedural-distribution-of-vegetation-on-large-scale-virtual-terrains/</guid>
+      <guid>https://ffranzin.github.io/publications/gpu-based-real-time-procedural-distribution-of-vegetation-on-large-scale-virtual-terrains/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Uma Framework para distribuicao, gerenciamento e renderizacao de vegetacao em cenarios virtuais massivos em tempo real</title>
-      <link>./publications/uma-framework-para-distribuicao-gerenciamento-e-renderizacao-de-vegetacao-em-cenarios-virtuais-massivos-em-tempo-real/</link>
+      <link>https://ffranzin.github.io/publications/uma-framework-para-distribuicao-gerenciamento-e-renderizacao-de-vegetacao-em-cenarios-virtuais-massivos-em-tempo-real/</link>
       <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>./publications/uma-framework-para-distribuicao-gerenciamento-e-renderizacao-de-vegetacao-em-cenarios-virtuais-massivos-em-tempo-real/</guid>
+      <guid>https://ffranzin.github.io/publications/uma-framework-para-distribuicao-gerenciamento-e-renderizacao-de-vegetacao-em-cenarios-virtuais-massivos-em-tempo-real/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Facial Recognition Optimization</title>
-      <link>./projects/creations/facematch/</link>
+      <link>https://ffranzin.github.io/projects/creations/facematch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./projects/creations/facematch/</guid>
+      <guid>https://ffranzin.github.io/projects/creations/facematch/</guid>
       <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  I proposed and migrated a feature that compares millions of human faces to use GPU power.
 
 Description
@@ -66,19 +66,19 @@ I recently made a breakthrough in the field of face recognition technology by co
     
     <item>
       <title>Game Assets Optimizations</title>
-      <link>./projects/creations/game-assets-optimizations/</link>
+      <link>https://ffranzin.github.io/projects/creations/game-assets-optimizations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./projects/creations/game-assets-optimizations/</guid>
+      <guid>https://ffranzin.github.io/projects/creations/game-assets-optimizations/</guid>
       <description>* { box-sizing: border-box; } .img-container { float: left; width: 49%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 70%; } #vertical-line { float: left; height: 500px; width: 1px; background-color: black; } .vertical-line { border-right:1px solid #000; }  I encouraged managers and guided artists in optimizing 3D assets and game scenarios to create real-time cutscenes, resulting in more manageable and less time-consuming changes.</description>
     </item>
     
     <item>
       <title>Game Optimizations</title>
-      <link>./projects/creations/game-optimizations/</link>
+      <link>https://ffranzin.github.io/projects/creations/game-optimizations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./projects/creations/game-optimizations/</guid>
+      <guid>https://ffranzin.github.io/projects/creations/game-optimizations/</guid>
       <description>* { box-sizing: border-box; } .video-container { float: left; width: 50%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 50%; } video { width: 99%; height: auto; display: block; margin-left: auto; margin-right: auto; }  New requirements significantly increased the number of simulated game entities, putting the game at a critical stage in terms of performance. In this context, I took responsibility for investigating and fixing performance bottlenecks.</description>
     </item>
     
