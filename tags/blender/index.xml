@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blender on Flavio Franzin</title>
-    <link>https://ffranzin.github.io/tags/blender/</link>
+    <link>./tags/blender/</link>
     <description>Recent content in Blender on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="https://ffranzin.github.io/tags/blender/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language><atom:link href="./tags/blender/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Modeling (Blender)</title>
-      <link>https://ffranzin.github.io/projects/creations/blender_modeling/</link>
+      <link>./projects/creations/blender_modeling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ffranzin.github.io/projects/creations/blender_modeling/</guid>
+      <guid>./projects/creations/blender_modeling/</guid>
       <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  
 Mossberg
      
@@ -24,10 +24,10 @@ Granade Launcher L79</description>
     
     <item>
       <title>Vehicles creation - 3D artist</title>
-      <link>https://ffranzin.github.io/projects/creations/full_artist_process/</link>
+      <link>./projects/creations/full_artist_process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ffranzin.github.io/projects/creations/full_artist_process/</guid>
+      <guid>./projects/creations/full_artist_process/</guid>
       <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  
 Vehicles ASTROS II MK-6
         Coded animation for vehicle leveling and a mechanical arm using inverse kinematics

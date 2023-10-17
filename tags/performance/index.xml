@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Performance on Flavio Franzin</title>
-    <link>https://ffranzin.github.io/tags/performance/</link>
+    <link>./tags/performance/</link>
     <description>Recent content in Performance on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="https://ffranzin.github.io/tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language><atom:link href="./tags/performance/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Game Assets Optimizations</title>
-      <link>https://ffranzin.github.io/projects/creations/game-assets-optimizations/</link>
+      <link>./projects/creations/game-assets-optimizations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ffranzin.github.io/projects/creations/game-assets-optimizations/</guid>
+      <guid>./projects/creations/game-assets-optimizations/</guid>
       <description>* { box-sizing: border-box; } .img-container { float: left; width: 49%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 70%; } #vertical-line { float: left; height: 500px; width: 1px; background-color: black; } .vertical-line { border-right:1px solid #000; }  I encouraged managers and guided artists in optimizing 3D assets and game scenarios to create real-time cutscenes, resulting in more manageable and less time-consuming changes.</description>
     </item>
     
     <item>
       <title>Game Optimizations</title>
-      <link>https://ffranzin.github.io/projects/creations/game-optimizations/</link>
+      <link>./projects/creations/game-optimizations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ffranzin.github.io/projects/creations/game-optimizations/</guid>
+      <guid>./projects/creations/game-optimizations/</guid>
       <description>* { box-sizing: border-box; } .video-container { float: left; width: 50%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 50%; } video { width: 99%; height: auto; display: block; margin-left: auto; margin-right: auto; }  New requirements significantly increased the number of simulated game entities, putting the game at a critical stage in terms of performance. In this context, I took responsibility for investigating and fixing performance bottlenecks.</description>
     </item>
     
