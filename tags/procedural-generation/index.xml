@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Procedural generation on Flavio Franzin</title>
+    <title>Procedural Generation on Flavio Franzin</title>
     <link>https://ffranzin.github.io/tags/procedural-generation/</link>
-    <description>Recent content in Procedural generation on Flavio Franzin</description>
+    <description>Recent content in Procedural Generation on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Thu, 08 Nov 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://ffranzin.github.io/tags/procedural-generation/index.xml" rel="self" type="application/rss+xml" />
@@ -25,7 +25,6 @@
       <description></description>
     </item>
     
-<<<<<<< HEAD
     <item>
       <title>Procedural 3D - Houdini</title>
       <link>https://ffranzin.github.io/projects/creations/houdini/</link>
@@ -41,7 +40,5 @@ Irregular Ground stone
  </description>
     </item>
     
-=======
->>>>>>> parent of da00340 (Update)
   </channel>
 </rss>
