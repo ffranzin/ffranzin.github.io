@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Procedural Material on Flavio Franzin</title>
-    <link>./tags/procedural-material/</link>
+    <link>https://ffranzin.github.io/tags/procedural-material/</link>
     <description>Recent content in Procedural Material on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="./tags/procedural-material/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language><atom:link href="https://ffranzin.github.io/tags/procedural-material/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Procedural Materials - Substance Designer</title>
-      <link>./projects/creations/substance_designer/</link>
+      <link>https://ffranzin.github.io/projects/creations/substance_designer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./projects/creations/substance_designer/</guid>
+      <guid>https://ffranzin.github.io/projects/creations/substance_designer/</guid>
       <description> * { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  
 Aged Wood
     

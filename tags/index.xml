@@ -2,485 +2,485 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Flavio Franzin</title>
-    <link>./tags/</link>
+    <link>https://ffranzin.github.io/tags/</link>
     <description>Recent content in Tags on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Fri, 08 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="./tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ffranzin.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Floating-point Precision</title>
-      <link>./tags/floating-point-precision/</link>
+      <link>https://ffranzin.github.io/tags/floating-point-precision/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>./tags/floating-point-precision/</guid>
+      <guid>https://ffranzin.github.io/tags/floating-point-precision/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Geographic Information System (GIS)</title>
-      <link>./tags/geographic-information-system-gis/</link>
+      <link>https://ffranzin.github.io/tags/geographic-information-system-gis/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>./tags/geographic-information-system-gis/</guid>
+      <guid>https://ffranzin.github.io/tags/geographic-information-system-gis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Large Scale scenarios</title>
-      <link>./tags/large-scale-scenarios/</link>
+      <link>https://ffranzin.github.io/tags/large-scale-scenarios/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>./tags/large-scale-scenarios/</guid>
+      <guid>https://ffranzin.github.io/tags/large-scale-scenarios/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mesh Generation</title>
-      <link>./tags/mesh-generation/</link>
+      <link>https://ffranzin.github.io/tags/mesh-generation/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>./tags/mesh-generation/</guid>
+      <guid>https://ffranzin.github.io/tags/mesh-generation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Optimization</title>
-      <link>./tags/optimization/</link>
+      <link>https://ffranzin.github.io/tags/optimization/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>./tags/optimization/</guid>
+      <guid>https://ffranzin.github.io/tags/optimization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Real-time Physics Simulation</title>
-      <link>./tags/real-time-physics-simulation/</link>
+      <link>https://ffranzin.github.io/tags/real-time-physics-simulation/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>./tags/real-time-physics-simulation/</guid>
+      <guid>https://ffranzin.github.io/tags/real-time-physics-simulation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tool programming</title>
-      <link>./tags/tool-programming/</link>
+      <link>https://ffranzin.github.io/tags/tool-programming/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>./tags/tool-programming/</guid>
+      <guid>https://ffranzin.github.io/tags/tool-programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bezier Curves</title>
-      <link>./tags/bezier-curves/</link>
+      <link>https://ffranzin.github.io/tags/bezier-curves/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>./tags/bezier-curves/</guid>
+      <guid>https://ffranzin.github.io/tags/bezier-curves/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Collision Simulation</title>
-      <link>./tags/collision-simulation/</link>
+      <link>https://ffranzin.github.io/tags/collision-simulation/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>./tags/collision-simulation/</guid>
+      <guid>https://ffranzin.github.io/tags/collision-simulation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GPU-Based</title>
-      <link>./tags/gpu-based/</link>
+      <link>https://ffranzin.github.io/tags/gpu-based/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>./tags/gpu-based/</guid>
+      <guid>https://ffranzin.github.io/tags/gpu-based/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GPU-Instancing</title>
-      <link>./tags/gpu-instancing/</link>
+      <link>https://ffranzin.github.io/tags/gpu-instancing/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>./tags/gpu-instancing/</guid>
+      <guid>https://ffranzin.github.io/tags/gpu-instancing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ground Vegetation</title>
-      <link>./tags/ground-vegetation/</link>
+      <link>https://ffranzin.github.io/tags/ground-vegetation/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>./tags/ground-vegetation/</guid>
+      <guid>https://ffranzin.github.io/tags/ground-vegetation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Procedural</title>
-      <link>./tags/procedural/</link>
+      <link>https://ffranzin.github.io/tags/procedural/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>./tags/procedural/</guid>
+      <guid>https://ffranzin.github.io/tags/procedural/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Real-time</title>
-      <link>./tags/real-time/</link>
+      <link>https://ffranzin.github.io/tags/real-time/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>./tags/real-time/</guid>
+      <guid>https://ffranzin.github.io/tags/real-time/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rendering</title>
-      <link>./tags/rendering/</link>
+      <link>https://ffranzin.github.io/tags/rendering/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>./tags/rendering/</guid>
+      <guid>https://ffranzin.github.io/tags/rendering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>terrain carving</title>
-      <link>./tags/terrain-carving/</link>
+      <link>https://ffranzin.github.io/tags/terrain-carving/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>./tags/terrain-carving/</guid>
+      <guid>https://ffranzin.github.io/tags/terrain-carving/</guid>
       <description></description>
     </item>
     
     <item>
       <title>terrain editing</title>
-      <link>./tags/terrain-editing/</link>
+      <link>https://ffranzin.github.io/tags/terrain-editing/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>./tags/terrain-editing/</guid>
+      <guid>https://ffranzin.github.io/tags/terrain-editing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Virtual terrains</title>
-      <link>./tags/virtual-terrains/</link>
+      <link>https://ffranzin.github.io/tags/virtual-terrains/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>./tags/virtual-terrains/</guid>
+      <guid>https://ffranzin.github.io/tags/virtual-terrains/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Procedural Generation</title>
-      <link>./tags/procedural-generation/</link>
+      <link>https://ffranzin.github.io/tags/procedural-generation/</link>
       <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>./tags/procedural-generation/</guid>
+      <guid>https://ffranzin.github.io/tags/procedural-generation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>procedural generations</title>
-      <link>./tags/procedural-generations/</link>
+      <link>https://ffranzin.github.io/tags/procedural-generations/</link>
       <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>./tags/procedural-generations/</guid>
+      <guid>https://ffranzin.github.io/tags/procedural-generations/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vegetation</title>
-      <link>./tags/vegetation/</link>
+      <link>https://ffranzin.github.io/tags/vegetation/</link>
       <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>./tags/vegetation/</guid>
+      <guid>https://ffranzin.github.io/tags/vegetation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Virtual Landscapes</title>
-      <link>./tags/virtual-landscapes/</link>
+      <link>https://ffranzin.github.io/tags/virtual-landscapes/</link>
       <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>./tags/virtual-landscapes/</guid>
+      <guid>https://ffranzin.github.io/tags/virtual-landscapes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Noise</title>
-      <link>./tags/noise/</link>
+      <link>https://ffranzin.github.io/tags/noise/</link>
       <pubDate>Wed, 08 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>./tags/noise/</guid>
+      <guid>https://ffranzin.github.io/tags/noise/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Procedural Clouds</title>
-      <link>./tags/procedural-clouds/</link>
+      <link>https://ffranzin.github.io/tags/procedural-clouds/</link>
       <pubDate>Wed, 08 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>./tags/procedural-clouds/</guid>
+      <guid>https://ffranzin.github.io/tags/procedural-clouds/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ray Marching</title>
-      <link>./tags/ray-marching/</link>
+      <link>https://ffranzin.github.io/tags/ray-marching/</link>
       <pubDate>Wed, 08 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>./tags/ray-marching/</guid>
+      <guid>https://ffranzin.github.io/tags/ray-marching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>data analysis automation</title>
-      <link>./tags/data-analysis-automation/</link>
+      <link>https://ffranzin.github.io/tags/data-analysis-automation/</link>
       <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>./tags/data-analysis-automation/</guid>
+      <guid>https://ffranzin.github.io/tags/data-analysis-automation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data extraction</title>
-      <link>./tags/data-extraction/</link>
+      <link>https://ffranzin.github.io/tags/data-extraction/</link>
       <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>./tags/data-extraction/</guid>
+      <guid>https://ffranzin.github.io/tags/data-extraction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>data integration</title>
-      <link>./tags/data-integration/</link>
+      <link>https://ffranzin.github.io/tags/data-integration/</link>
       <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>./tags/data-integration/</guid>
+      <guid>https://ffranzin.github.io/tags/data-integration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Animation</title>
-      <link>./tags/animation/</link>
+      <link>https://ffranzin.github.io/tags/animation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/animation/</guid>
+      <guid>https://ffranzin.github.io/tags/animation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blender</title>
-      <link>./tags/blender/</link>
+      <link>https://ffranzin.github.io/tags/blender/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/blender/</guid>
+      <guid>https://ffranzin.github.io/tags/blender/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Compute Shaders</title>
-      <link>./tags/compute-shaders/</link>
+      <link>https://ffranzin.github.io/tags/compute-shaders/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/compute-shaders/</guid>
+      <guid>https://ffranzin.github.io/tags/compute-shaders/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Computer Graphics</title>
-      <link>./tags/computer-graphics/</link>
+      <link>https://ffranzin.github.io/tags/computer-graphics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/computer-graphics/</guid>
+      <guid>https://ffranzin.github.io/tags/computer-graphics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cuda</title>
-      <link>./tags/cuda/</link>
+      <link>https://ffranzin.github.io/tags/cuda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/cuda/</guid>
+      <guid>https://ffranzin.github.io/tags/cuda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data compression</title>
-      <link>./tags/data-compression/</link>
+      <link>https://ffranzin.github.io/tags/data-compression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/data-compression/</guid>
+      <guid>https://ffranzin.github.io/tags/data-compression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data Structure</title>
-      <link>./tags/data-structure/</link>
+      <link>https://ffranzin.github.io/tags/data-structure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/data-structure/</guid>
+      <guid>https://ffranzin.github.io/tags/data-structure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GIS Data</title>
-      <link>./tags/gis-data/</link>
+      <link>https://ffranzin.github.io/tags/gis-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/gis-data/</guid>
+      <guid>https://ffranzin.github.io/tags/gis-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Houdini</title>
-      <link>./tags/houdini/</link>
+      <link>https://ffranzin.github.io/tags/houdini/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/houdini/</guid>
+      <guid>https://ffranzin.github.io/tags/houdini/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Large-Scale scenario</title>
-      <link>./tags/large-scale-scenario/</link>
+      <link>https://ffranzin.github.io/tags/large-scale-scenario/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/large-scale-scenario/</guid>
+      <guid>https://ffranzin.github.io/tags/large-scale-scenario/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Memory Management</title>
-      <link>./tags/memory-management/</link>
+      <link>https://ffranzin.github.io/tags/memory-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/memory-management/</guid>
+      <guid>https://ffranzin.github.io/tags/memory-management/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modeling</title>
-      <link>./tags/modeling/</link>
+      <link>https://ffranzin.github.io/tags/modeling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/modeling/</guid>
+      <guid>https://ffranzin.github.io/tags/modeling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Performance</title>
-      <link>./tags/performance/</link>
+      <link>https://ffranzin.github.io/tags/performance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/performance/</guid>
+      <guid>https://ffranzin.github.io/tags/performance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Procedural Material</title>
-      <link>./tags/procedural-material/</link>
+      <link>https://ffranzin.github.io/tags/procedural-material/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/procedural-material/</guid>
+      <guid>https://ffranzin.github.io/tags/procedural-material/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programming</title>
-      <link>./tags/programming/</link>
+      <link>https://ffranzin.github.io/tags/programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/programming/</guid>
+      <guid>https://ffranzin.github.io/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sculpting</title>
-      <link>./tags/sculpting/</link>
+      <link>https://ffranzin.github.io/tags/sculpting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/sculpting/</guid>
+      <guid>https://ffranzin.github.io/tags/sculpting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shader</title>
-      <link>./tags/shader/</link>
+      <link>https://ffranzin.github.io/tags/shader/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/shader/</guid>
+      <guid>https://ffranzin.github.io/tags/shader/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shaders</title>
-      <link>./tags/shaders/</link>
+      <link>https://ffranzin.github.io/tags/shaders/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/shaders/</guid>
+      <guid>https://ffranzin.github.io/tags/shaders/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Substance Designer</title>
-      <link>./tags/substance-designer/</link>
+      <link>https://ffranzin.github.io/tags/substance-designer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/substance-designer/</guid>
+      <guid>https://ffranzin.github.io/tags/substance-designer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Substance Painter</title>
-      <link>./tags/substance-painter/</link>
+      <link>https://ffranzin.github.io/tags/substance-painter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/substance-painter/</guid>
+      <guid>https://ffranzin.github.io/tags/substance-painter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Texturing</title>
-      <link>./tags/texturing/</link>
+      <link>https://ffranzin.github.io/tags/texturing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/texturing/</guid>
+      <guid>https://ffranzin.github.io/tags/texturing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tools</title>
-      <link>./tags/tools/</link>
+      <link>https://ffranzin.github.io/tags/tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/tools/</guid>
+      <guid>https://ffranzin.github.io/tags/tools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tutoring</title>
-      <link>./tags/tutoring/</link>
+      <link>https://ffranzin.github.io/tags/tutoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/tutoring/</guid>
+      <guid>https://ffranzin.github.io/tags/tutoring/</guid>
       <description></description>
     </item>
     
     <item>
       <title>UV unwrapping</title>
-      <link>./tags/uv-unwrapping/</link>
+      <link>https://ffranzin.github.io/tags/uv-unwrapping/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/uv-unwrapping/</guid>
+      <guid>https://ffranzin.github.io/tags/uv-unwrapping/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ZBrush</title>
-      <link>./tags/zbrush/</link>
+      <link>https://ffranzin.github.io/tags/zbrush/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./tags/zbrush/</guid>
+      <guid>https://ffranzin.github.io/tags/zbrush/</guid>
       <description></description>
     </item>
     

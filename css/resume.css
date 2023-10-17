@@ -1,3 +1,8 @@
+html {
+  --scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
@@ -41,12 +46,6 @@ h2 {
   font-weight: 500;
   font-family: 'Saira Extra Condensed', serif;
   font-size: 1.35rem;
-}
-
-.subheading-flavio {
-    font-weight: 700;
-    font-family: 'Saira Extra Condensed', serif;
-    font-size: 1.55rem;
 }
 
 .list-social-icons a {
@@ -141,7 +140,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BA5D38 !important;
+  background-color: #BD5D38 !important;
 }
 
 .text-primary {
