@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ZBrush on Flavio Franzin</title>
-    <link>./tags/zbrush/</link>
+    <link>/tags/zbrush/</link>
     <description>Recent content in ZBrush on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="./tags/zbrush/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language><atom:link href="/tags/zbrush/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sculpting (ZBrush)</title>
-      <link>./projects/creations/zbrush_sculpting/</link>
+      <link>/projects/creations/zbrush_sculpting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./projects/creations/zbrush_sculpting/</guid>
+      <guid>/projects/creations/zbrush_sculpting/</guid>
       <description> * { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  Octopus
      
 Pumpkin Head

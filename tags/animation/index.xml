@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Animation on Flavio Franzin</title>
-    <link>./tags/animation/</link>
+    <link>/tags/animation/</link>
     <description>Recent content in Animation on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="./tags/animation/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language><atom:link href="/tags/animation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vehicles creation - 3D artist</title>
-      <link>./projects/creations/full_artist_process/</link>
+      <link>/projects/creations/full_artist_process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./projects/creations/full_artist_process/</guid>
+      <guid>/projects/creations/full_artist_process/</guid>
       <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  
 Vehicles ASTROS II MK-6
         Coded animation for vehicle leveling and a mechanical arm using inverse kinematics

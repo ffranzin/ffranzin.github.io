@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Flavio Franzin</title>
-    <link>./_index-copy/</link>
+    <link>/_index-copy/</link>
     <description>Recent content in Home on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sat, 10 Feb 2018 18:56:13 -0500</lastBuildDate><atom:link href="./_index-copy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Feb 2018 18:56:13 -0500</lastBuildDate><atom:link href="/_index-copy/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
