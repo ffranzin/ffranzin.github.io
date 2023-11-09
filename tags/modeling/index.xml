@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Modeling on Flavio Franzin</title>
-    <link>./tags/modeling/</link>
+    <link>/tags/modeling/</link>
     <description>Recent content in Modeling on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="./tags/modeling/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language><atom:link href="/tags/modeling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Modeling (Blender)</title>
-      <link>./projects/creations/blender_modeling/</link>
+      <link>/projects/creations/blender_modeling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./projects/creations/blender_modeling/</guid>
+      <guid>/projects/creations/blender_modeling/</guid>
       <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 33%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  Some results that I achieved using Blender, purely for educational purposes and to explore the tool&amp;rsquo;s potentials.
 
 M107
@@ -23,10 +23,10 @@ Mossberg</description>
     
     <item>
       <title>Procedural Bridge System</title>
-      <link>./projects/creations/procedural-bridge-system/</link>
+      <link>/projects/creations/procedural-bridge-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./projects/creations/procedural-bridge-system/</guid>
+      <guid>/projects/creations/procedural-bridge-system/</guid>
       <description>* { box-sizing: border-box; } .img-container-x3 { float: left; width: 33%; padding: 1px; } .img-container-x1 { float: left; width: 49.5%; padding: 1px; } .img-container-x3:hover img { float: left; width: 150%; padding: 1px; } .img-container-x1:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 85%; } .left-arrow-container { display: flex; align-items: center; justify-content: center; } .</description>
     </item>
     

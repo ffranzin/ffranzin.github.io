@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Performance on Flavio Franzin</title>
-    <link>./tags/performance/</link>
+    <link>/tags/performance/</link>
     <description>Recent content in Performance on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="./tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language><atom:link href="/tags/performance/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Game Optimizations</title>
-      <link>./projects/creations/game-optimizations/</link>
+      <link>/projects/creations/game-optimizations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./projects/creations/game-optimizations/</guid>
+      <guid>/projects/creations/game-optimizations/</guid>
       <description>* { box-sizing: border-box; } .video-container { float: left; width: 50%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 50%; } video { width: 95%; height: auto; display: block; margin-left: auto; margin-right: auto; }  The client&amp;rsquo;s new requirements added numerous game entities, drastically impacting the game&amp;rsquo;s performance. In this context, for four months, I focused on investigating and fixing performance bottlenecks, improving the game&amp;rsquo;s scalability, and bringing its performance to acceptable levels again.</description>
     </item>
     

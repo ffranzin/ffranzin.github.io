@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C&#43;&#43; on Flavio Franzin</title>
-    <link>./tags/c&#43;&#43;/</link>
+    <link>/tags/c&#43;&#43;/</link>
     <description>Recent content in C&#43;&#43; on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="./tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language><atom:link href="/tags/c++/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Facial Recognition Optimization</title>
-      <link>./projects/creations/facematch/</link>
+      <link>/projects/creations/facematch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./projects/creations/facematch/</guid>
+      <guid>/projects/creations/facematch/</guid>
       <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .note { font-size: 13px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  I proposed and improved a feature that compares millions of human faces to use GPU power, reducing the processing time from days to minutes.
 
 Description

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data compression on Flavio Franzin</title>
-    <link>./tags/data-compression/</link>
+    <link>/tags/data-compression/</link>
     <description>Recent content in Data compression on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="./tags/data-compression/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language><atom:link href="/tags/data-compression/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grass Deformation</title>
-      <link>./projects/creations/grass-and-terrain-deformation/</link>
+      <link>/projects/creations/grass-and-terrain-deformation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./projects/creations/grass-and-terrain-deformation/</guid>
+      <guid>/projects/creations/grass-and-terrain-deformation/</guid>
       <description>* { box-sizing: border-box; } .img-container { float: left; width: 25%; padding: 2px; } .video-container { float: left; width: 50%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 50%; }  I developed a solution for the real-time long-lasting grass deformation according to the vehicles&#39; and characters&#39; movements.
 In real-world battlefields, vehicle tracks are dangerous as they can reveal position to enemies.</description>
     </item>

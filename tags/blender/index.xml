@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blender on Flavio Franzin</title>
-    <link>./tags/blender/</link>
+    <link>/tags/blender/</link>
     <description>Recent content in Blender on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="./tags/blender/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language><atom:link href="/tags/blender/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Modeling (Blender)</title>
-      <link>./projects/creations/blender_modeling/</link>
+      <link>/projects/creations/blender_modeling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./projects/creations/blender_modeling/</guid>
+      <guid>/projects/creations/blender_modeling/</guid>
       <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 33%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  Some results that I achieved using Blender, purely for educational purposes and to explore the tool&amp;rsquo;s potentials.
 
 M107
@@ -23,10 +23,10 @@ Mossberg</description>
     
     <item>
       <title>Vehicles creation - 3D artist</title>
-      <link>./projects/creations/astros_vehicles/</link>
+      <link>/projects/creations/astros_vehicles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./projects/creations/astros_vehicles/</guid>
+      <guid>/projects/creations/astros_vehicles/</guid>
       <description> * { box-sizing: border-box; } .img-container-x4 { float: left; width: 49%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }   Full creation of low-poly vehicles constituting the Brazilian Astros II (Artillery SaTuration ROcket System) battery.
  3D Modeling: Blender UV Unwrapping: Blender Level of Details (LOD): Blender (Decimate tool) Texturing: Substance Painter Bake: Blender (Normal and Ambient Occlusion map) Real-time dynamic animation: Code  Antennas (Blend shapes and C#) Mechanical arm (Inverse kinematics with C#) Leveling pistons (C#) Tailgate (C#)                 </description>
     </item>
