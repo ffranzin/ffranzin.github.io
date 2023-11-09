@@ -2,224 +2,232 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/publications/</loc>
+    <loc>./publications/</loc>
     <lastmod>2020-01-07T16:47:30+00:00</lastmod>
     <priority>0.6</priority>
   </url><url>
-    <loc>/projects/creations/</loc>
+    <loc>./projects/creations/</loc>
     <lastmod>2020-01-07T15:00:28+00:00</lastmod>
     <priority>0.5</priority>
   </url><url>
-    <loc>/publications/a-raster-based-approach-for-waterbodies-mesh-generation/</loc>
+    <loc>./publications/a-raster-based-approach-for-waterbodies-mesh-generation/</loc>
     <lastmod>2021-01-08T00:00:00+00:00</lastmod>
     <priority>0.8</priority>
   </url><url>
-    <loc>/publications/accurate-real-time-physics-simulation-for-large-worlds/</loc>
+    <loc>./publications/accurate-real-time-physics-simulation-for-large-worlds/</loc>
     <lastmod>2021-01-08T00:00:00+00:00</lastmod>
     <priority>0.8</priority>
   </url><url>
-    <loc>/tags/floating-point-precision/</loc>
+    <loc>./tags/floating-point-precision/</loc>
     <lastmod>2021-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/geographic-information-system-gis/</loc>
+    <loc>./tags/geographic-information-system-gis/</loc>
     <lastmod>2021-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/large-scale-scenarios/</loc>
+    <loc>./tags/large-scale-scenarios/</loc>
     <lastmod>2021-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/mesh-generation/</loc>
+    <loc>./tags/mesh-generation/</loc>
     <lastmod>2021-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/optimization/</loc>
+    <loc>./tags/optimization/</loc>
     <lastmod>2021-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/real-time-physics-simulation/</loc>
+    <loc>./tags/real-time-physics-simulation/</loc>
     <lastmod>2021-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>./tags/</loc>
     <lastmod>2021-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/tool-programming/</loc>
+    <loc>./tags/tool-programming/</loc>
     <lastmod>2021-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/projects/</loc>
+    <loc>./projects/</loc>
     <lastmod>2020-01-07T15:00:28+00:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>/tags/bezier-curves/</loc>
+    <loc>./tags/bezier-curves/</loc>
     <lastmod>2019-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/collision-simulation/</loc>
+    <loc>./tags/collision-simulation/</loc>
     <lastmod>2019-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/gpu-based/</loc>
+    <loc>./tags/gpu-based/</loc>
     <lastmod>2019-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publications/gpu-based-rendering-and-collision-simulation-of-ground-vegetation-in-large-scace-virtual-scenarios/</loc>
-    <lastmod>2019-11-08T00:00:00+00:00</lastmod>
-    <priority>0.8</priority>
-  </url><url>
-    <loc>/tags/gpu-instancing/</loc>
-    <lastmod>2019-11-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/ground-vegetation/</loc>
-    <lastmod>2019-11-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/procedural/</loc>
-    <lastmod>2019-11-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publications/procedural-editing-of-virtual-terrains-using-3d-bezier-curves/</loc>
+    <loc>./publications/gpu-based-rendering-and-collision-simulation-of-ground-vegetation-in-large-scace-virtual-scenarios/</loc>
     <lastmod>2019-11-08T00:00:00+00:00</lastmod>
     <priority>0.8</priority>
   </url><url>
-    <loc>/tags/real-time/</loc>
+    <loc>./tags/gpu-instancing/</loc>
     <lastmod>2019-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/rendering/</loc>
+    <loc>./tags/ground-vegetation/</loc>
     <lastmod>2019-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/terrain-carving/</loc>
+    <loc>./tags/procedural/</loc>
     <lastmod>2019-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/terrain-editing/</loc>
+    <loc>./publications/procedural-editing-of-virtual-terrains-using-3d-bezier-curves/</loc>
+    <lastmod>2019-11-08T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url><url>
+    <loc>./tags/real-time/</loc>
     <lastmod>2019-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/virtual-terrains/</loc>
+    <loc>./tags/rendering/</loc>
     <lastmod>2019-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publications/gpu-based-real-time-procedural-distribution-of-vegetation-on-large-scale-virtual-terrains/</loc>
+    <loc>./tags/terrain-carving/</loc>
+    <lastmod>2019-11-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>./tags/terrain-editing/</loc>
+    <lastmod>2019-11-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>./tags/virtual-terrains/</loc>
+    <lastmod>2019-11-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>./publications/gpu-based-real-time-procedural-distribution-of-vegetation-on-large-scale-virtual-terrains/</loc>
     <lastmod>2018-11-08T00:00:00+00:00</lastmod>
     <priority>0.8</priority>
   </url><url>
-    <loc>/tags/procedural-generation/</loc>
+    <loc>./tags/procedural-generation/</loc>
     <lastmod>2018-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/procedural-generations/</loc>
+    <loc>./tags/procedural-generations/</loc>
     <lastmod>2018-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publications/uma-framework-para-distribuicao-gerenciamento-e-renderizacao-de-vegetacao-em-cenarios-virtuais-massivos-em-tempo-real/</loc>
+    <loc>./publications/uma-framework-para-distribuicao-gerenciamento-e-renderizacao-de-vegetacao-em-cenarios-virtuais-massivos-em-tempo-real/</loc>
     <lastmod>2018-11-08T00:00:00+00:00</lastmod>
     <priority>0.8</priority>
   </url><url>
-    <loc>/tags/vegetation/</loc>
+    <loc>./tags/vegetation/</loc>
     <lastmod>2018-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/virtual-landscapes/</loc>
+    <loc>./tags/virtual-landscapes/</loc>
     <lastmod>2018-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/_index-copy/</loc>
+    <loc>./</loc>
     <lastmod>2018-02-10T18:56:13-05:00</lastmod>
     <priority>1</priority>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2018-02-10T18:56:13-05:00</lastmod>
-    <priority>1</priority>
-  </url><url>
-    <loc>/publications/aplica%C3%A7%C3%A3o-de-t%C3%A9cnicas-procedurais-em-gpu-para-renderiza%C3%A7%C3%A3o-de-nuvens-volum%C3%A9tricas-em-tempo-real/</loc>
+    <loc>./publications/aplica%C3%A7%C3%A3o-de-t%C3%A9cnicas-procedurais-em-gpu-para-renderiza%C3%A7%C3%A3o-de-nuvens-volum%C3%A9tricas-em-tempo-real/</loc>
     <lastmod>2017-11-08T00:00:00+00:00</lastmod>
     <priority>0.8</priority>
   </url><url>
-    <loc>/tags/noise/</loc>
+    <loc>./tags/noise/</loc>
     <lastmod>2017-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/procedural-clouds/</loc>
+    <loc>./tags/procedural-clouds/</loc>
     <lastmod>2017-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/ray-marching/</loc>
+    <loc>./tags/ray-marching/</loc>
     <lastmod>2017-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/data-analysis-automation/</loc>
+    <loc>./tags/data-analysis-automation/</loc>
     <lastmod>2016-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/data-extraction/</loc>
+    <loc>./tags/data-extraction/</loc>
     <lastmod>2016-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/data-integration/</loc>
+    <loc>./tags/data-integration/</loc>
     <lastmod>2016-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publications/using-active-mediators-and-passive-extractors-inside-materialized-data-integration-systems/</loc>
+    <loc>./publications/using-active-mediators-and-passive-extractors-inside-materialized-data-integration-systems/</loc>
     <lastmod>2016-11-08T00:00:00+00:00</lastmod>
     <priority>0.8</priority>
   </url><url>
-    <loc>/tags/animation/</loc>
+    <loc>./tags/animation/</loc>
   </url><url>
-    <loc>/tags/blender/</loc>
+    <loc>./tags/blender/</loc>
   </url><url>
-    <loc>/projects/creations/breaking-glass/</loc>
+    <loc>./projects/creations/breaking-glass/</loc>
   </url><url>
-    <loc>/tags/compute-shaders/</loc>
+    <loc>./tags/c&#43;&#43;/</loc>
   </url><url>
-    <loc>/tags/computer-graphics/</loc>
+    <loc>./tags/compute-shaders/</loc>
   </url><url>
-    <loc>/tags/cuda/</loc>
+    <loc>./tags/computer-graphics/</loc>
   </url><url>
-    <loc>/tags/data-compression/</loc>
+    <loc>./tags/cuda/</loc>
   </url><url>
-    <loc>/tags/data-structure/</loc>
+    <loc>./tags/data-compression/</loc>
   </url><url>
-    <loc>/projects/creations/facematch/</loc>
+    <loc>./tags/data-structure/</loc>
   </url><url>
-    <loc>/projects/creations/game-assets-optimizations/</loc>
+    <loc>./tags/ddo-data-oriented-design/</loc>
   </url><url>
-    <loc>/projects/creations/game-optimizations/</loc>
+    <loc>./tags/dots/</loc>
   </url><url>
-    <loc>/tags/gis-data/</loc>
+    <loc>./projects/creations/facematch/</loc>
   </url><url>
-    <loc>/projects/creations/grass-and-terrain-deformation/</loc>
+    <loc>./projects/creations/game-optimizations/</loc>
   </url><url>
-    <loc>/tags/large-scale-scenario/</loc>
+    <loc>./tags/gis-data/</loc>
   </url><url>
-    <loc>/tags/memory-management/</loc>
+    <loc>./tags/gpu/</loc>
   </url><url>
-    <loc>/tags/modeling/</loc>
+    <loc>./projects/creations/grass-and-terrain-deformation/</loc>
   </url><url>
-    <loc>/projects/creations/blender_modeling/</loc>
+    <loc>./tags/large-scale-scenario/</loc>
   </url><url>
-    <loc>/tags/performance/</loc>
+    <loc>./tags/memory-management/</loc>
   </url><url>
-    <loc>/projects/creations/houdini/</loc>
+    <loc>./tags/modeling/</loc>
   </url><url>
-    <loc>/projects/creations/procedural-bridge-system/</loc>
+    <loc>./projects/creations/blender_modeling/</loc>
   </url><url>
-    <loc>/tags/procedural-material/</loc>
+    <loc>./tags/performance/</loc>
   </url><url>
-    <loc>/projects/creations/substance_designer/</loc>
+    <loc>./projects/creations/houdini/</loc>
   </url><url>
-    <loc>/projects/creations/procedural-vegetation-system/</loc>
+    <loc>./projects/creations/procedural-bridge-system/</loc>
   </url><url>
-    <loc>/tags/programming/</loc>
+    <loc>./tags/procedural-material/</loc>
   </url><url>
-    <loc>/tags/sculpting/</loc>
+    <loc>./projects/creations/substance_designer/</loc>
   </url><url>
-    <loc>/projects/creations/zbrush_sculpting/</loc>
+    <loc>./projects/creations/procedural-vegetation-system/</loc>
   </url><url>
-    <loc>/search/</loc>
+    <loc>./tags/programming/</loc>
+  </url><url>
+    <loc>./tags/quantization/</loc>
+  </url><url>
+    <loc>./tags/scalability/</loc>
+  </url><url>
+    <loc>./tags/sculpting/</loc>
+  </url><url>
+    <loc>./projects/creations/zbrush_sculpting/</loc>
+  </url><url>
+    <loc>./search/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>/tags/shader/</loc>
+    <loc>./tags/shader/</loc>
   </url><url>
-    <loc>/tags/shaders/</loc>
+    <loc>./tags/shaders/</loc>
   </url><url>
-    <loc>/tags/substance-designer/</loc>
+    <loc>./tags/simd/</loc>
   </url><url>
-    <loc>/tags/substance-painter/</loc>
+    <loc>./tags/substance-designer/</loc>
   </url><url>
-    <loc>/tags/texturing/</loc>
+    <loc>./tags/substance-painter/</loc>
   </url><url>
-    <loc>/tags/tools/</loc>
+    <loc>./tags/texturing/</loc>
   </url><url>
-    <loc>/tags/tutoring/</loc>
+    <loc>./tags/tools/</loc>
   </url><url>
-    <loc>/tags/uv-unwrapping/</loc>
+    <loc>./tags/tutoring/</loc>
   </url><url>
-    <loc>/projects/creations/vector-feature-map/</loc>
+    <loc>./tags/uv-unwrapping/</loc>
   </url><url>
-    <loc>/projects/creations/full_artist_process/</loc>
+    <loc>./projects/creations/vector-feature-map/</loc>
   </url><url>
-    <loc>/projects/creations/clouds/</loc>
+    <loc>./projects/creations/astros_vehicles/</loc>
   </url><url>
-    <loc>/projects/creations/water-bodies-meshes-generation/</loc>
+    <loc>./projects/creations/clouds/</loc>
   </url><url>
-    <loc>/tags/zbrush/</loc>
+    <loc>./projects/creations/water-bodies-meshes-generation/</loc>
+  </url><url>
+    <loc>./tags/zbrush/</loc>
   </url>
 </urlset>

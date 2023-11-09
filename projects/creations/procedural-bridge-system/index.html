@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Flavio Franzin | Procedural Bridge System</title>
   <meta property="og:title" content="Flavio Franzin | Procedural Bridge System" />
-  <meta property="og:image" content="/perfil.jpg" />
+  <meta property="og:image" content="./perfil.jpg" />
   <meta name="description" content="I modeled a set of 3D bridges parts to compose a procedural bridge system. ">
   <meta property="og:description" content="I modeled a set of 3D bridges parts to compose a procedural bridge system. " />
   <meta name="author" content="Flavio Franzin ">
@@ -23,12 +23,12 @@
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous"></noscript>
   
-  <link rel="preload" href="/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/resume.css"></noscript>
-  <link rel="preload" href="/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/tweaks.css"></noscript>
-  <link rel="preload" href="/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/resume-override.css"></noscript>
+  <link rel="preload" href="./css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./css/resume.css"></noscript>
+  <link rel="preload" href="./css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./css/tweaks.css"></noscript>
+  <link rel="preload" href="./css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./css/resume-override.css"></noscript>
   <meta name="generator" content="Hugo 0.88.1" />
   
    
@@ -91,22 +91,22 @@
 
 
 <li class="breadcrumb-item">
-  <a href="/">Home</a>
+  <a href="./">Home</a>
 </li>
 
 
 <li class="breadcrumb-item">
-  <a href="/projects/">Projects</a>
+  <a href="./projects/">Projects</a>
 </li>
 
 
 <li class="breadcrumb-item">
-  <a href="/projects/creations/">Projects and Main Achievements</a>
+  <a href="./projects/creations/">Projects and Main Achievements</a>
 </li>
 
 
 <li class="breadcrumb-item active">
-  <a href="/projects/creations/procedural-bridge-system/">Procedural Bridge System</a>
+  <a href="./projects/creations/procedural-bridge-system/">Procedural Bridge System</a>
 </li>
 
   </ol>
@@ -123,14 +123,27 @@
   box-sizing: border-box;
 }
 
-.img-container-x4 {
+.img-container-x3 {
   float: left;
-  width: 25%;
+  width: 33%;
+  padding: 1px;
+}
+
+.img-container-x1 {
+  float: left;
+  width: 49.5%;
   padding: 1px;
 }
 
 
-.img-container-x4:hover img 
+.img-container-x3:hover img 
+{
+  float: left;
+  width: 150%;
+  padding: 1px;
+}
+
+.img-container-x1:hover img 
 {
   float: left;
   width: 150%;
@@ -150,6 +163,15 @@
   max-width: 85%;
 }
 
+.left-arrow-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-arrow {
+  font-size: 24px; /* Adjust the size as needed */
+}
 
 </style>
 <p>I modeled a set of 3D bridges parts to compose a procedural bridge system.</p>
@@ -158,25 +180,27 @@
 <p>I was involved in the system design and also modeled many bridge parts to compose a flexible Procedural Bridge System, capable of instantiating many bridges during loading time based on a set of initial and final points. My experience in programming and art proved to be valuable during the system design process, as it facilitated effective communication with my colleague responsible for coding. It also helped me to have a straightforward understanding of the steps he followed, which enabled me to model a set of accurate 3D bridges' parts that met his needs.</p>
 <p>Below are four variations of bridges created based on existing examples within the Brazilian Army&rsquo;s training fields in Goias/Brazil. We also have a comparison of changing the starting and ending points of one bridge, resulting in a longer bridge.</p>
 <div class="clearfix">
-  <div class="img-container-x4">
+  <div class="img-container-x1">
   <img src="\bridges\bridge4.jpg" alt="Italy" style="width:100%">
   </div>
-  <div class="img-container-x4">  
-  <img src="\bridges\bridge2.jpg" alt="Italy" style="width:100%">
-  </div>
-  <div class="img-container-x4">
- <img src="\bridges\bridge3.jpg" alt="Italy" style="width:100%">
-  </div>
-   <div class="img-container-x4">
- <img src="\bridges\bridge1.jpg" alt="Italy" style="width:100%">
-  </div>
-</div>
-<div class="clearfix">
-  <div class="img-container-x4">
-  <h4><p style="text-align:center;">&#8595;</p></h4>
+    <div class="img-container-x1">
   <img src="\bridges\bridge4.1.jpg" alt="Italy" style="width:100%">
   </div>
 </div>
+<br/>
+<br/>
+<div class="clearfix">
+  <div class="img-container-x3">  
+  <img src="\bridges\bridge2.jpg" alt="Italy" style="width:100%">
+  </div>
+  <div class="img-container-x3">
+ <img src="\bridges\bridge3.jpg" alt="Italy" style="width:100%">
+  </div>
+   <div class="img-container-x3">
+ <img src="\bridges\bridge1.jpg" alt="Italy" style="width:100%">
+  </div>
+</div>
+
         
 
         <br />

@@ -2,476 +2,539 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Flavio Franzin</title>
-    <link>/tags/</link>
+    <link>./tags/</link>
     <description>Recent content in Tags on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Fri, 08 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="./tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Floating-point Precision</title>
-      <link>/tags/floating-point-precision/</link>
+      <link>./tags/floating-point-precision/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/floating-point-precision/</guid>
+      <guid>./tags/floating-point-precision/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Geographic Information System (GIS)</title>
-      <link>/tags/geographic-information-system-gis/</link>
+      <link>./tags/geographic-information-system-gis/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/geographic-information-system-gis/</guid>
+      <guid>./tags/geographic-information-system-gis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Large Scale scenarios</title>
-      <link>/tags/large-scale-scenarios/</link>
+      <link>./tags/large-scale-scenarios/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/large-scale-scenarios/</guid>
+      <guid>./tags/large-scale-scenarios/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mesh Generation</title>
-      <link>/tags/mesh-generation/</link>
+      <link>./tags/mesh-generation/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/mesh-generation/</guid>
+      <guid>./tags/mesh-generation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Optimization</title>
-      <link>/tags/optimization/</link>
+      <link>./tags/optimization/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/optimization/</guid>
+      <guid>./tags/optimization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Real-time Physics Simulation</title>
-      <link>/tags/real-time-physics-simulation/</link>
+      <link>./tags/real-time-physics-simulation/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/real-time-physics-simulation/</guid>
+      <guid>./tags/real-time-physics-simulation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tool programming</title>
-      <link>/tags/tool-programming/</link>
+      <link>./tags/tool-programming/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tool-programming/</guid>
+      <guid>./tags/tool-programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bezier Curves</title>
-      <link>/tags/bezier-curves/</link>
+      <link>./tags/bezier-curves/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/bezier-curves/</guid>
+      <guid>./tags/bezier-curves/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Collision Simulation</title>
-      <link>/tags/collision-simulation/</link>
+      <link>./tags/collision-simulation/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/collision-simulation/</guid>
+      <guid>./tags/collision-simulation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GPU-Based</title>
-      <link>/tags/gpu-based/</link>
+      <link>./tags/gpu-based/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/gpu-based/</guid>
+      <guid>./tags/gpu-based/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GPU-Instancing</title>
-      <link>/tags/gpu-instancing/</link>
+      <link>./tags/gpu-instancing/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/gpu-instancing/</guid>
+      <guid>./tags/gpu-instancing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ground Vegetation</title>
-      <link>/tags/ground-vegetation/</link>
+      <link>./tags/ground-vegetation/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ground-vegetation/</guid>
+      <guid>./tags/ground-vegetation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Procedural</title>
-      <link>/tags/procedural/</link>
+      <link>./tags/procedural/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/procedural/</guid>
+      <guid>./tags/procedural/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Real-time</title>
-      <link>/tags/real-time/</link>
+      <link>./tags/real-time/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/real-time/</guid>
+      <guid>./tags/real-time/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rendering</title>
-      <link>/tags/rendering/</link>
+      <link>./tags/rendering/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/rendering/</guid>
+      <guid>./tags/rendering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>terrain carving</title>
-      <link>/tags/terrain-carving/</link>
+      <link>./tags/terrain-carving/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/terrain-carving/</guid>
+      <guid>./tags/terrain-carving/</guid>
       <description></description>
     </item>
     
     <item>
       <title>terrain editing</title>
-      <link>/tags/terrain-editing/</link>
+      <link>./tags/terrain-editing/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/terrain-editing/</guid>
+      <guid>./tags/terrain-editing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Virtual terrains</title>
-      <link>/tags/virtual-terrains/</link>
+      <link>./tags/virtual-terrains/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/virtual-terrains/</guid>
+      <guid>./tags/virtual-terrains/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Procedural generation</title>
-      <link>/tags/procedural-generation/</link>
+      <link>./tags/procedural-generation/</link>
       <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/procedural-generation/</guid>
+      <guid>./tags/procedural-generation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>procedural generations</title>
-      <link>/tags/procedural-generations/</link>
+      <link>./tags/procedural-generations/</link>
       <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/procedural-generations/</guid>
+      <guid>./tags/procedural-generations/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vegetation</title>
-      <link>/tags/vegetation/</link>
+      <link>./tags/vegetation/</link>
       <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/vegetation/</guid>
+      <guid>./tags/vegetation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Virtual Landscapes</title>
-      <link>/tags/virtual-landscapes/</link>
+      <link>./tags/virtual-landscapes/</link>
       <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/virtual-landscapes/</guid>
+      <guid>./tags/virtual-landscapes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Noise</title>
-      <link>/tags/noise/</link>
+      <link>./tags/noise/</link>
       <pubDate>Wed, 08 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/noise/</guid>
+      <guid>./tags/noise/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Procedural Clouds</title>
-      <link>/tags/procedural-clouds/</link>
+      <link>./tags/procedural-clouds/</link>
       <pubDate>Wed, 08 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/procedural-clouds/</guid>
+      <guid>./tags/procedural-clouds/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ray Marching</title>
-      <link>/tags/ray-marching/</link>
+      <link>./tags/ray-marching/</link>
       <pubDate>Wed, 08 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ray-marching/</guid>
+      <guid>./tags/ray-marching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>data analysis automation</title>
-      <link>/tags/data-analysis-automation/</link>
+      <link>./tags/data-analysis-automation/</link>
       <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/data-analysis-automation/</guid>
+      <guid>./tags/data-analysis-automation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data extraction</title>
-      <link>/tags/data-extraction/</link>
+      <link>./tags/data-extraction/</link>
       <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/data-extraction/</guid>
+      <guid>./tags/data-extraction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>data integration</title>
-      <link>/tags/data-integration/</link>
+      <link>./tags/data-integration/</link>
       <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/data-integration/</guid>
+      <guid>./tags/data-integration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Animation</title>
-      <link>/tags/animation/</link>
+      <link>./tags/animation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/animation/</guid>
+      <guid>./tags/animation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blender</title>
-      <link>/tags/blender/</link>
+      <link>./tags/blender/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/blender/</guid>
+      <guid>./tags/blender/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>./tags/c&#43;&#43;/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Compute Shaders</title>
-      <link>/tags/compute-shaders/</link>
+      <link>./tags/compute-shaders/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/compute-shaders/</guid>
+      <guid>./tags/compute-shaders/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Computer Graphics</title>
-      <link>/tags/computer-graphics/</link>
+      <link>./tags/computer-graphics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/computer-graphics/</guid>
+      <guid>./tags/computer-graphics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cuda</title>
-      <link>/tags/cuda/</link>
+      <link>./tags/cuda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/cuda/</guid>
+      <guid>./tags/cuda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data compression</title>
-      <link>/tags/data-compression/</link>
+      <link>./tags/data-compression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/data-compression/</guid>
+      <guid>./tags/data-compression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data Structure</title>
-      <link>/tags/data-structure/</link>
+      <link>./tags/data-structure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/data-structure/</guid>
+      <guid>./tags/data-structure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DDO (Data Oriented Design)</title>
+      <link>./tags/ddo-data-oriented-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./tags/ddo-data-oriented-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DOTS</title>
+      <link>./tags/dots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./tags/dots/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GIS Data</title>
-      <link>/tags/gis-data/</link>
+      <link>./tags/gis-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/gis-data/</guid>
+      <guid>./tags/gis-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPU</title>
+      <link>./tags/gpu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./tags/gpu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Large-Scale scenario</title>
-      <link>/tags/large-scale-scenario/</link>
+      <link>./tags/large-scale-scenario/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/large-scale-scenario/</guid>
+      <guid>./tags/large-scale-scenario/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Memory Management</title>
-      <link>/tags/memory-management/</link>
+      <link>./tags/memory-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/memory-management/</guid>
+      <guid>./tags/memory-management/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modeling</title>
-      <link>/tags/modeling/</link>
+      <link>./tags/modeling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/modeling/</guid>
+      <guid>./tags/modeling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Performance</title>
-      <link>/tags/performance/</link>
+      <link>./tags/performance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/performance/</guid>
+      <guid>./tags/performance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Procedural Material</title>
-      <link>/tags/procedural-material/</link>
+      <link>./tags/procedural-material/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/procedural-material/</guid>
+      <guid>./tags/procedural-material/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programming</title>
-      <link>/tags/programming/</link>
+      <link>./tags/programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/programming/</guid>
+      <guid>./tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantization</title>
+      <link>./tags/quantization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./tags/quantization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scalability</title>
+      <link>./tags/scalability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./tags/scalability/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sculpting</title>
-      <link>/tags/sculpting/</link>
+      <link>./tags/sculpting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/sculpting/</guid>
+      <guid>./tags/sculpting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shader</title>
-      <link>/tags/shader/</link>
+      <link>./tags/shader/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/shader/</guid>
+      <guid>./tags/shader/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shaders</title>
-      <link>/tags/shaders/</link>
+      <link>./tags/shaders/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/shaders/</guid>
+      <guid>./tags/shaders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SIMD</title>
+      <link>./tags/simd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./tags/simd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Substance Designer</title>
-      <link>/tags/substance-designer/</link>
+      <link>./tags/substance-designer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/substance-designer/</guid>
+      <guid>./tags/substance-designer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Substance Painter</title>
-      <link>/tags/substance-painter/</link>
+      <link>./tags/substance-painter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/substance-painter/</guid>
+      <guid>./tags/substance-painter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Texturing</title>
-      <link>/tags/texturing/</link>
+      <link>./tags/texturing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/texturing/</guid>
+      <guid>./tags/texturing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tools</title>
-      <link>/tags/tools/</link>
+      <link>./tags/tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tools/</guid>
+      <guid>./tags/tools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tutoring</title>
-      <link>/tags/tutoring/</link>
+      <link>./tags/tutoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tutoring/</guid>
+      <guid>./tags/tutoring/</guid>
       <description></description>
     </item>
     
     <item>
       <title>UV unwrapping</title>
-      <link>/tags/uv-unwrapping/</link>
+      <link>./tags/uv-unwrapping/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/uv-unwrapping/</guid>
+      <guid>./tags/uv-unwrapping/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ZBrush</title>
-      <link>/tags/zbrush/</link>
+      <link>./tags/zbrush/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/zbrush/</guid>
+      <guid>./tags/zbrush/</guid>
       <description></description>
     </item>
     

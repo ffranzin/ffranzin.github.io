@@ -2,38 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Memory Management on Flavio Franzin</title>
-    <link>/tags/memory-management/</link>
+    <link>./tags/memory-management/</link>
     <description>Recent content in Memory Management on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="/tags/memory-management/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language><atom:link href="./tags/memory-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Game Optimizations</title>
-      <link>/projects/creations/game-optimizations/</link>
+      <link>./projects/creations/game-optimizations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/game-optimizations/</guid>
-      <description>* { box-sizing: border-box; } .video-container { float: left; width: 50%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 50%; } video { width: 99%; height: auto; display: block; margin-left: auto; margin-right: auto; }  New requirements significantly increased the number of simulated game entities, putting the game at a critical stage in terms of performance. In this context, I took responsibility for investigating and fixing performance bottlenecks.</description>
+      <guid>./projects/creations/game-optimizations/</guid>
+      <description>* { box-sizing: border-box; } .video-container { float: left; width: 50%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 50%; } video { width: 95%; height: auto; display: block; margin-left: auto; margin-right: auto; }  The client&amp;rsquo;s new requirements added numerous game entities, drastically impacting the game&amp;rsquo;s performance. In this context, for four months, I focused on investigating and fixing performance bottlenecks, improving the game&amp;rsquo;s scalability, and bringing its performance to acceptable levels again.</description>
     </item>
     
     <item>
-      <title>Grass Deformation and Terrain Trails</title>
-      <link>/projects/creations/grass-and-terrain-deformation/</link>
+      <title>Grass Deformation</title>
+      <link>./projects/creations/grass-and-terrain-deformation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/grass-and-terrain-deformation/</guid>
-      <description>* { box-sizing: border-box; } .img-container { float: left; width: 25%; padding: 2px; } .video-container { float: left; width: 50%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 50%; }  I developed a solution for the real-time long-lasting grasses deformation and terrain trails according to the vehicles&#39; and characters&#39; movements.
-
-Motivation
-In the context of military simulations, the deformation of terrains and grasses according to the movement of military vehicles is dangerous, as it can reveal the position to the enemies.</description>
+      <guid>./projects/creations/grass-and-terrain-deformation/</guid>
+      <description>* { box-sizing: border-box; } .img-container { float: left; width: 25%; padding: 2px; } .video-container { float: left; width: 50%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 50%; }  I developed a solution for the real-time long-lasting grass deformation according to the vehicles&#39; and characters&#39; movements.
+In real-world battlefields, vehicle tracks are dangerous as they can reveal position to enemies.</description>
     </item>
     
     <item>
       <title>Vector Data Access Optimization</title>
-      <link>/projects/creations/vector-feature-map/</link>
+      <link>./projects/creations/vector-feature-map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/vector-feature-map/</guid>
-      <description>video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; } #player-overlay { position: absolute; display: none; top: 0; left: 0; width: 100%; height: 100%; background-color: #000 z-index:999; }  I developed a dynamic structure to optimize access to mass datasets of polygons and polylines, representing areas like forests, lakes, roads, and rivers. This structure accelerated the terrain rendering ーwhich these data are projected by texturingー by +80% on average.</description>
+      <guid>./projects/creations/vector-feature-map/</guid>
+      <description>video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; } #player-overlay { position: absolute; display: none; top: 0; left: 0; width: 100%; height: 100%; background-color: #000 z-index:999; }  I developed a dynamic data structure to optimize access to mass datasets of polygons and polylines. This structure accelerated terrain rendering by an average of +80%.
+In military simulations, mass GIS (Geographic Information System) datasets are a common resource used to represent features like forests, lakes, roads, and rivers through polygons and polylines.</description>
     </item>
     
   </channel>

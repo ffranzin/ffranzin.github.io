@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Flavio Franzin | Facial Recognition Optimization</title>
   <meta property="og:title" content="Flavio Franzin | Facial Recognition Optimization" />
-  <meta property="og:image" content="/perfil.jpg" />
-  <meta name="description" content="Migrated a feature that compares millions of human faces to use GPU power.">
-  <meta property="og:description" content="Migrated a feature that compares millions of human faces to use GPU power." />
+  <meta property="og:image" content="./perfil.jpg" />
+  <meta name="description" content="Improved a feature that compares millions of human faces to use GPU power, reducing the processing time from days to minutes.">
+  <meta property="og:description" content="Improved a feature that compares millions of human faces to use GPU power, reducing the processing time from days to minutes." />
   <meta name="author" content="Flavio Franzin ">
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -23,12 +23,12 @@
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous"></noscript>
   
-  <link rel="preload" href="/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/resume.css"></noscript>
-  <link rel="preload" href="/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/tweaks.css"></noscript>
-  <link rel="preload" href="/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/resume-override.css"></noscript>
+  <link rel="preload" href="./css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./css/resume.css"></noscript>
+  <link rel="preload" href="./css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./css/tweaks.css"></noscript>
+  <link rel="preload" href="./css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./css/resume-override.css"></noscript>
   <meta name="generator" content="Hugo 0.88.1" />
   
    
@@ -91,22 +91,22 @@
 
 
 <li class="breadcrumb-item">
-  <a href="/">Home</a>
+  <a href="./">Home</a>
 </li>
 
 
 <li class="breadcrumb-item">
-  <a href="/projects/">Projects</a>
+  <a href="./projects/">Projects</a>
 </li>
 
 
 <li class="breadcrumb-item">
-  <a href="/projects/creations/">Projects and Main Achievements</a>
+  <a href="./projects/creations/">Projects and Main Achievements</a>
 </li>
 
 
 <li class="breadcrumb-item active">
-  <a href="/projects/creations/facematch/">Facial Recognition Optimization</a>
+  <a href="./projects/creations/facematch/">Facial Recognition Optimization</a>
 </li>
 
   </ol>
@@ -129,7 +129,9 @@
   padding: 1px;
 }
 
-
+.note {
+  font-size: 13px;
+}
 
 .img-container-x4:hover img 
 {
@@ -145,13 +147,22 @@
 }
 
 </style>
-<p>I proposed and migrated a feature that compares millions of human faces to use GPU power.</p>
+<p>I proposed and improved a feature that compares millions of human faces to use GPU power, reducing the processing time from days to minutes.</p>
 <p><br />
 <strong>Description</strong></p>
-<p>I recently made a breakthrough in the field of face recognition technology by converting a feature that was previously limited to CPU processing to GPU processing using Cuda. This conversion has drastically reduced the processing time required for comparing N faces with another N faces.</p>
-<p>To better understand the magnitude of this achievement, imagine comparing 5 million faces with another 5 million faces (that is a small dataset if compared to ours clients). This would require an astonishing 25 trillion comparisons! Before the GPU conversion, this task would have taken several days to process on a CPU. However, with the new GPU processing, it can be completed in just a few minutes/hours.</p>
-<p>Note: I am not responsible for creating anything related to AIs and mathematical comparisons of faces. I simply utilize my expertise to take advantage of hardware capabilities.</p>
-
+<p>I recently made a breakthrough in the field of face recognition technology by migrating a feature that was previously limited to CPU to GPU processing. This refactoring has drastically reduced the time for comparing N faces with another set of N faces, <strong>shrinking the time from days to a few minutes</strong>.</p>
+<p>To better understand the magnitude of this achievement, imagine comparing 10 million faces with another 10 million faces (a small dataset compared to our clients). <strong>This would require an astonishing 100 trillion comparisons!</strong> Before the refactoring, this task would have taken days to process on a CPU. Now, it can be completed in a few minutes.</p>
+<p>This achievement was made possible through the utilization of cutting-edge technologies and optimization techniques, including:</p>
+<ul>
+<li>Cuda/Parallelism;</li>
+<li>SIMD (Single Instruction Multiple Data);</li>
+<li>Quantization;</li>
+<li>DOD (Data-Oriented Design).</li>
+</ul>
+<p><br /></p>
+<div class="note">
+  <b>Note:</b> I am not responsible for creating anything related to AIs. I simply utilize my expertise in optimizations and take advantage of hardware capabilities.
+</div>
         
 
         <br />
@@ -171,7 +182,15 @@
     
     <li><text_capitalize><a class="tag" href="/tags/optimization">Optimization</a></text_capitalize></li>
     
-    <li><text_capitalize><a class="tag" href="/tags/gpu-based">GPU-Based</a></text_capitalize></li>
+    <li><text_capitalize><a class="tag" href="/tags/gpu">GPU</a></text_capitalize></li>
+    
+    <li><text_capitalize><a class="tag" href="/tags/simd">SIMD</a></text_capitalize></li>
+    
+    <li><text_capitalize><a class="tag" href="/tags/quantization">Quantization</a></text_capitalize></li>
+    
+    <li><text_capitalize><a class="tag" href="/tags/ddo-data-oriented-design">DDO (Data Oriented Design)</a></text_capitalize></li>
+    
+    <li><text_capitalize><a class="tag" href="/tags/c&#43;&#43;">C&#43;&#43;</a></text_capitalize></li>
     
 </ul>
 

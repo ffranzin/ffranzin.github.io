@@ -2,166 +2,146 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Flavio Franzin</title>
-    <link>/</link>
+    <link>./</link>
     <description>Recent content in Home on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sat, 10 Feb 2018 18:56:13 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Feb 2018 18:56:13 -0500</lastBuildDate><atom:link href="./index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Raster-based Approach for Waterbodies Mesh Generation</title>
-      <link>/publications/a-raster-based-approach-for-waterbodies-mesh-generation/</link>
+      <link>./publications/a-raster-based-approach-for-waterbodies-mesh-generation/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/publications/a-raster-based-approach-for-waterbodies-mesh-generation/</guid>
+      <guid>./publications/a-raster-based-approach-for-waterbodies-mesh-generation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Accurate Real-time Physics Simulation for Large Worlds</title>
-      <link>/publications/accurate-real-time-physics-simulation-for-large-worlds/</link>
+      <link>./publications/accurate-real-time-physics-simulation-for-large-worlds/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/publications/accurate-real-time-physics-simulation-for-large-worlds/</guid>
+      <guid>./publications/accurate-real-time-physics-simulation-for-large-worlds/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GPU-Based Rendering and Collision Simulation of Ground Vegetation in Large-Scace Virtual Scenarios</title>
-      <link>/publications/gpu-based-rendering-and-collision-simulation-of-ground-vegetation-in-large-scace-virtual-scenarios/</link>
+      <link>./publications/gpu-based-rendering-and-collision-simulation-of-ground-vegetation-in-large-scace-virtual-scenarios/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publications/gpu-based-rendering-and-collision-simulation-of-ground-vegetation-in-large-scace-virtual-scenarios/</guid>
+      <guid>./publications/gpu-based-rendering-and-collision-simulation-of-ground-vegetation-in-large-scace-virtual-scenarios/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Procedural Editing of Virtual Terrains Using 3D Bezier Curves</title>
-      <link>/publications/procedural-editing-of-virtual-terrains-using-3d-bezier-curves/</link>
+      <link>./publications/procedural-editing-of-virtual-terrains-using-3d-bezier-curves/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publications/procedural-editing-of-virtual-terrains-using-3d-bezier-curves/</guid>
+      <guid>./publications/procedural-editing-of-virtual-terrains-using-3d-bezier-curves/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GPU-Based Real-Time Procedural Distribution of Vegetation On Large-Scale Virtual Terrains</title>
-      <link>/publications/gpu-based-real-time-procedural-distribution-of-vegetation-on-large-scale-virtual-terrains/</link>
+      <link>./publications/gpu-based-real-time-procedural-distribution-of-vegetation-on-large-scale-virtual-terrains/</link>
       <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publications/gpu-based-real-time-procedural-distribution-of-vegetation-on-large-scale-virtual-terrains/</guid>
+      <guid>./publications/gpu-based-real-time-procedural-distribution-of-vegetation-on-large-scale-virtual-terrains/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Uma Framework para distribuicao, gerenciamento e renderizacao de vegetacao em cenarios virtuais massivos em tempo real</title>
-      <link>/publications/uma-framework-para-distribuicao-gerenciamento-e-renderizacao-de-vegetacao-em-cenarios-virtuais-massivos-em-tempo-real/</link>
+      <link>./publications/uma-framework-para-distribuicao-gerenciamento-e-renderizacao-de-vegetacao-em-cenarios-virtuais-massivos-em-tempo-real/</link>
       <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publications/uma-framework-para-distribuicao-gerenciamento-e-renderizacao-de-vegetacao-em-cenarios-virtuais-massivos-em-tempo-real/</guid>
+      <guid>./publications/uma-framework-para-distribuicao-gerenciamento-e-renderizacao-de-vegetacao-em-cenarios-virtuais-massivos-em-tempo-real/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Home</title>
-      <link>/_index-copy/</link>
-      <pubDate>Sat, 10 Feb 2018 18:56:13 -0500</pubDate>
-      
-      <guid>/_index-copy/</guid>
-      <description>.container { display: table; width: 100%; float: left; } .container div { display: table-cell; } * { box-sizing: border-box; } /* Create three equal columns that floats next to each other */ .column { float: left; width: 33%; padding: 10px; height: 300px; /* Should be removed. Only for demonstration */ } /* Clear floats after the columns */ .row:after { content: &#34;&#34;; display: table; clear: both; }  I entered the game industry as a 3D modeler, knowledge which I got as a hobby/curiosity.</description>
-    </item>
-    
-    <item>
       <title>Aplicacao de tecnicas procedurais em GPU para renderizacao de nuvens volumetricas em tempo real</title>
-      <link>/publications/aplica%C3%A7%C3%A3o-de-t%C3%A9cnicas-procedurais-em-gpu-para-renderiza%C3%A7%C3%A3o-de-nuvens-volum%C3%A9tricas-em-tempo-real/</link>
+      <link>./publications/aplica%C3%A7%C3%A3o-de-t%C3%A9cnicas-procedurais-em-gpu-para-renderiza%C3%A7%C3%A3o-de-nuvens-volum%C3%A9tricas-em-tempo-real/</link>
       <pubDate>Wed, 08 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publications/aplica%C3%A7%C3%A3o-de-t%C3%A9cnicas-procedurais-em-gpu-para-renderiza%C3%A7%C3%A3o-de-nuvens-volum%C3%A9tricas-em-tempo-real/</guid>
+      <guid>./publications/aplica%C3%A7%C3%A3o-de-t%C3%A9cnicas-procedurais-em-gpu-para-renderiza%C3%A7%C3%A3o-de-nuvens-volum%C3%A9tricas-em-tempo-real/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Using Active Mediators and Passive Extractors Inside Materialized Data Integration Systems</title>
-      <link>/publications/using-active-mediators-and-passive-extractors-inside-materialized-data-integration-systems/</link>
+      <link>./publications/using-active-mediators-and-passive-extractors-inside-materialized-data-integration-systems/</link>
       <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publications/using-active-mediators-and-passive-extractors-inside-materialized-data-integration-systems/</guid>
+      <guid>./publications/using-active-mediators-and-passive-extractors-inside-materialized-data-integration-systems/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Break Glass</title>
-      <link>/projects/creations/breaking-glass/</link>
+      <link>./projects/creations/breaking-glass/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/breaking-glass/</guid>
-      <description>.center { display: block; margin-left: auto; margin-right: auto; max-width: 95%; } .row { display: flex; margin-left: auto; margin-right: auto; max-width: 95%; } .column { flex: 25%; padding: 2px; } video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; } #player-overlay { position: absolute; display: none; top: 0; left: 0; width: 100%; height: 100%; background-color: #000 z-index:999; }  I prototyped two solutions to break glass.</description>
+      <guid>./projects/creations/breaking-glass/</guid>
+      <description>.center { display: block; margin-left: auto; margin-right: auto; max-width: 95%; } .row { display: flex; margin-left: auto; margin-right: auto; max-width: 95%; } .column { flex: 33.33%; padding: 2px; } video { width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto; } #player-overlay { position: absolute; display: none; top: 0; left: 0; width: 100%; height: 100%; background-color: #000; z-index: 999; }  I prototyped two solutions for glass-breaking simulation.</description>
     </item>
     
     <item>
       <title>Facial Recognition Optimization</title>
-      <link>/projects/creations/facematch/</link>
+      <link>./projects/creations/facematch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/facematch/</guid>
-      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  I proposed and migrated a feature that compares millions of human faces to use GPU power.
+      <guid>./projects/creations/facematch/</guid>
+      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .note { font-size: 13px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  I proposed and improved a feature that compares millions of human faces to use GPU power, reducing the processing time from days to minutes.
 
 Description
-I recently made a breakthrough in the field of face recognition technology by converting a feature that was previously limited to CPU processing to GPU processing using Cuda.</description>
-    </item>
-    
-    <item>
-      <title>Game Assets Optimizations</title>
-      <link>/projects/creations/game-assets-optimizations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/creations/game-assets-optimizations/</guid>
-      <description>* { box-sizing: border-box; } .img-container { float: left; width: 49%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 70%; } #vertical-line { float: left; height: 500px; width: 1px; background-color: black; } .vertical-line { border-right:1px solid #000; }  I encouraged managers and guided artists in optimizing 3D assets and game scenarios to create real-time cutscenes, resulting in more manageable and less time-consuming changes.</description>
+I recently made a breakthrough in the field of face recognition technology by migrating a feature that was previously limited to CPU to GPU processing.</description>
     </item>
     
     <item>
       <title>Game Optimizations</title>
-      <link>/projects/creations/game-optimizations/</link>
+      <link>./projects/creations/game-optimizations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/game-optimizations/</guid>
-      <description>* { box-sizing: border-box; } .video-container { float: left; width: 50%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 50%; } video { width: 99%; height: auto; display: block; margin-left: auto; margin-right: auto; }  New requirements significantly increased the number of simulated game entities, putting the game at a critical stage in terms of performance. In this context, I took responsibility for investigating and fixing performance bottlenecks.</description>
+      <guid>./projects/creations/game-optimizations/</guid>
+      <description>* { box-sizing: border-box; } .video-container { float: left; width: 50%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 50%; } video { width: 95%; height: auto; display: block; margin-left: auto; margin-right: auto; }  The client&amp;rsquo;s new requirements added numerous game entities, drastically impacting the game&amp;rsquo;s performance. In this context, for four months, I focused on investigating and fixing performance bottlenecks, improving the game&amp;rsquo;s scalability, and bringing its performance to acceptable levels again.</description>
     </item>
     
     <item>
-      <title>Grass Deformation and Terrain Trails</title>
-      <link>/projects/creations/grass-and-terrain-deformation/</link>
+      <title>Grass Deformation</title>
+      <link>./projects/creations/grass-and-terrain-deformation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/grass-and-terrain-deformation/</guid>
-      <description>* { box-sizing: border-box; } .img-container { float: left; width: 25%; padding: 2px; } .video-container { float: left; width: 50%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 50%; }  I developed a solution for the real-time long-lasting grasses deformation and terrain trails according to the vehicles&#39; and characters&#39; movements.
-
-Motivation
-In the context of military simulations, the deformation of terrains and grasses according to the movement of military vehicles is dangerous, as it can reveal the position to the enemies.</description>
+      <guid>./projects/creations/grass-and-terrain-deformation/</guid>
+      <description>* { box-sizing: border-box; } .img-container { float: left; width: 25%; padding: 2px; } .video-container { float: left; width: 50%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 50%; }  I developed a solution for the real-time long-lasting grass deformation according to the vehicles&#39; and characters&#39; movements.
+In real-world battlefields, vehicle tracks are dangerous as they can reveal position to enemies.</description>
     </item>
     
     <item>
       <title>Modeling (Blender)</title>
-      <link>/projects/creations/blender_modeling/</link>
+      <link>./projects/creations/blender_modeling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/blender_modeling/</guid>
-      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  
-Mossberg
-     
+      <guid>./projects/creations/blender_modeling/</guid>
+      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 33%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  Some results that I achieved using Blender, purely for educational purposes and to explore the tool&amp;rsquo;s potentials.
+
+M107
+    
 Flamethrower
-      
-BBS-CM (High-poly)
-      
-Granade Launcher L79</description>
+    
+Mossberg</description>
     </item>
     
     <item>
       <title>Procedural 3D - Houdini</title>
-      <link>/projects/creations/houdini/</link>
+      <link>./projects/creations/houdini/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/houdini/</guid>
-      <description> * { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }   
+      <guid>./projects/creations/houdini/</guid>
+      <description> * { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  Some results that I achieved using Houdini, purely for educational purposes and to explore the tool&amp;rsquo;s potentials.
+
 Dusty terrain
    
 Fiery terrain
@@ -172,62 +152,59 @@ Irregular Ground stone
     
     <item>
       <title>Procedural Bridge System</title>
-      <link>/projects/creations/procedural-bridge-system/</link>
+      <link>./projects/creations/procedural-bridge-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/procedural-bridge-system/</guid>
-      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 85%; }  I modeled a set of 3D bridges parts to compose a procedural bridge system.
-
-Description
-I was involved in the system design and also modeled many bridge parts to compose a flexible Procedural Bridge System, capable of instantiating many bridges during loading time based on a set of initial and final points.</description>
+      <guid>./projects/creations/procedural-bridge-system/</guid>
+      <description>* { box-sizing: border-box; } .img-container-x3 { float: left; width: 33%; padding: 1px; } .img-container-x1 { float: left; width: 49.5%; padding: 1px; } .img-container-x3:hover img { float: left; width: 150%; padding: 1px; } .img-container-x1:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 85%; } .left-arrow-container { display: flex; align-items: center; justify-content: center; } .</description>
     </item>
     
     <item>
       <title>Procedural Materials - Substance Designer</title>
-      <link>/projects/creations/substance_designer/</link>
+      <link>./projects/creations/substance_designer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/substance_designer/</guid>
-      <description> * { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  
+      <guid>./projects/creations/substance_designer/</guid>
+      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  Some materials created with Substance Designer, primarily focused on learning the tool and also furthering my proficiency in procedural generation.
+
 Aged Wood
     
-Muddy with Trails
-    
-Bark with Knots and moss
-    
-Ground with Roots
-   </description>
+Muddy with Trails</description>
     </item>
     
     <item>
       <title>Procedural Vegetation System</title>
-      <link>/projects/creations/procedural-vegetation-system/</link>
+      <link>./projects/creations/procedural-vegetation-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/procedural-vegetation-system/</guid>
-      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 33%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; }  To solve the limitations of an existing solution, I designed and developed a robust GPU-based vegetation system capable of handling thousands of trees and small plants efficiently in real-time.</description>
+      <guid>./projects/creations/procedural-vegetation-system/</guid>
+      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 33%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; }  I designed and developed a robust GPU-based vegetation system capable of handling thousands of plants efficiently in real-time.
+
+Description
+In small environments, the decoration is typically handled by artists or designers, enabling precise control and aesthetically pleasing results.</description>
     </item>
     
     <item>
       <title>Sculpting (ZBrush)</title>
-      <link>/projects/creations/zbrush_sculpting/</link>
+      <link>./projects/creations/zbrush_sculpting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/zbrush_sculpting/</guid>
-      <description> * { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  Octopus
-     
+      <guid>./projects/creations/zbrush_sculpting/</guid>
+      <description> * { box-sizing: border-box; } .img-container-x4 { float: left; width: 33%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  Some results that I achieved using ZBrush, purely for educational purposes and to explore the tool&amp;rsquo;s potentials.
+Octopus
+    
 Pumpkin Head
-     
+    
 Sword
    </description>
     </item>
     
     <item>
       <title>Search Results</title>
-      <link>/search/</link>
+      <link>./search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/search/</guid>
+      <guid>./search/</guid>
       <description>This file exists solely to respond to /search URL with the related search layout template.
 No content shown here is rendered, all content is based in the template layouts/page/search.html
 Setting a very low sitemap priority will tell search engines this is not important content.
@@ -238,44 +215,42 @@ Initial setup Search depends on additional output content type of JSON in config
     
     <item>
       <title>Vector Data Access Optimization</title>
-      <link>/projects/creations/vector-feature-map/</link>
+      <link>./projects/creations/vector-feature-map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/vector-feature-map/</guid>
-      <description>video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; } #player-overlay { position: absolute; display: none; top: 0; left: 0; width: 100%; height: 100%; background-color: #000 z-index:999; }  I developed a dynamic structure to optimize access to mass datasets of polygons and polylines, representing areas like forests, lakes, roads, and rivers. This structure accelerated the terrain rendering ーwhich these data are projected by texturingー by +80% on average.</description>
+      <guid>./projects/creations/vector-feature-map/</guid>
+      <description>video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; } #player-overlay { position: absolute; display: none; top: 0; left: 0; width: 100%; height: 100%; background-color: #000 z-index:999; }  I developed a dynamic data structure to optimize access to mass datasets of polygons and polylines. This structure accelerated terrain rendering by an average of +80%.
+In military simulations, mass GIS (Geographic Information System) datasets are a common resource used to represent features like forests, lakes, roads, and rivers through polygons and polylines.</description>
     </item>
     
     <item>
       <title>Vehicles creation - 3D artist</title>
-      <link>/projects/creations/full_artist_process/</link>
+      <link>./projects/creations/astros_vehicles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/full_artist_process/</guid>
-      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  
-Vehicles ASTROS II MK-6
-        Coded animation for vehicle leveling and a mechanical arm using inverse kinematics
-  
- Coded animation for vehicle&amp;rsquo;s mechanical arm using inverse kinematics</description>
+      <guid>./projects/creations/astros_vehicles/</guid>
+      <description> * { box-sizing: border-box; } .img-container-x4 { float: left; width: 49%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }   Full creation of low-poly vehicles constituting the Brazilian Astros II (Artillery SaTuration ROcket System) battery.
+ 3D Modeling: Blender UV Unwrapping: Blender Level of Details (LOD): Blender (Decimate tool) Texturing: Substance Painter Bake: Blender (Normal and Ambient Occlusion map) Real-time dynamic animation: Code  Antennas (Blend shapes and C#) Mechanical arm (Inverse kinematics with C#) Leveling pistons (C#) Tailgate (C#)                 </description>
     </item>
     
     <item>
       <title>Volumetric Procedural Clouds</title>
-      <link>/projects/creations/clouds/</link>
+      <link>./projects/creations/clouds/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/clouds/</guid>
-      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 33%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; }  I created a volumetric procedural clouds using ray-marching technique.
+      <guid>./projects/creations/clouds/</guid>
+      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 49%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; }  I created a volumetric procedural clouds using the ray-marching technique.
 
 Description
-I have created a solution for real-time volumetric cloud rendering using the raymarching technique.</description>
+I developed a real-time volumetric cloud rendering solution using ray-marching technique for my BSc project inspired by the Guerrilla team&amp;rsquo;s proposal.</description>
     </item>
     
     <item>
       <title>Water planes mesh generation</title>
-      <link>/projects/creations/water-bodies-meshes-generation/</link>
+      <link>./projects/creations/water-bodies-meshes-generation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/water-bodies-meshes-generation/</guid>
+      <guid>./projects/creations/water-bodies-meshes-generation/</guid>
       <description>.center { display: block; margin-left: auto; margin-right: auto; max-width: 95%; } .row { display: flex; margin-left: auto; margin-right: auto; max-width: 95%; } .column { flex: 25%; padding: 2px; }  I designed and guided an intern in developing a tool to generate polygonal meshes from mass polygons and polylines datasets, representing rivers (lines) and lakes (polygons) in large-scale scenarios.
 
 Description

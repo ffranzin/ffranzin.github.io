@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Flavio Franzin | Grass Deformation and Terrain Trails</title>
-  <meta property="og:title" content="Flavio Franzin | Grass Deformation and Terrain Trails" />
-  <meta property="og:image" content="/perfil.jpg" />
-  <meta name="description" content="I developed a solution for the real-time long-lasting grasses deformation and terrain trails according to the vehicles&#39; and characters&#39; movements.">
-  <meta property="og:description" content="I developed a solution for the real-time long-lasting grasses deformation and terrain trails according to the vehicles&#39; and characters&#39; movements." />
+  <title>Flavio Franzin | Grass Deformation</title>
+  <meta property="og:title" content="Flavio Franzin | Grass Deformation" />
+  <meta property="og:image" content="./perfil.jpg" />
+  <meta name="description" content="I developed a solution for the real-time long-lasting grass deformation according to the vehicles&#39; and characters&#39; movements.">
+  <meta property="og:description" content="I developed a solution for the real-time long-lasting grass deformation according to the vehicles&#39; and characters&#39; movements." />
   <meta name="author" content="Flavio Franzin ">
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -23,12 +23,12 @@
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous"></noscript>
   
-  <link rel="preload" href="/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/resume.css"></noscript>
-  <link rel="preload" href="/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/tweaks.css"></noscript>
-  <link rel="preload" href="/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/resume-override.css"></noscript>
+  <link rel="preload" href="./css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./css/resume.css"></noscript>
+  <link rel="preload" href="./css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./css/tweaks.css"></noscript>
+  <link rel="preload" href="./css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./css/resume-override.css"></noscript>
   <meta name="generator" content="Hugo 0.88.1" />
   
    
@@ -91,22 +91,22 @@
 
 
 <li class="breadcrumb-item">
-  <a href="/">Home</a>
+  <a href="./">Home</a>
 </li>
 
 
 <li class="breadcrumb-item">
-  <a href="/projects/">Projects</a>
+  <a href="./projects/">Projects</a>
 </li>
 
 
 <li class="breadcrumb-item">
-  <a href="/projects/creations/">Projects and Main Achievements</a>
+  <a href="./projects/creations/">Projects and Main Achievements</a>
 </li>
 
 
 <li class="breadcrumb-item active">
-  <a href="/projects/creations/grass-and-terrain-deformation/">Grass Deformation and Terrain Trails</a>
+  <a href="./projects/creations/grass-and-terrain-deformation/">Grass Deformation</a>
 </li>
 
   </ol>
@@ -117,7 +117,7 @@
 
 <section class="resume-section p-3 p-lg-5 d-flex d-column">
     <div class="my-auto">
-        <h2 class="mb-0"><span class="text-primary">Grass Deformation and Terrain Trails</span></h2>
+        <h2 class="mb-0"><span class="text-primary">Grass Deformation</span></h2>
         <style>
 * {
   box-sizing: border-box;
@@ -151,10 +151,28 @@
 
 
 </style>
-<p>I developed a solution for the real-time long-lasting grasses deformation and terrain trails according to the vehicles' and characters' movements.</p>
-<p><br />
-<strong>Motivation</strong></p>
-<p>In the context of military simulations, the deformation of terrains and grasses according to the movement of military vehicles is dangerous, as it can reveal the position to the enemies. Thus, a feature to simulate this is widely imperative. This functionality was desired but always denied by the development team due to several computational challenges. The main one was the incalculable storage cost to deform grams and keep them bent for many hours or even days of simulation in large-scale scenarios. Based on that, I prototyped an alternative solution that deals with low storage demand. It was presented to the customer, who aroused much interest. Thus, we improved and integrated the solution into the application.</p>
+<p>I developed a solution for the real-time long-lasting grass deformation according to the vehicles' and characters' movements.</p>
+<p>In real-world battlefields, vehicle tracks are dangerous as they can reveal position to enemies. Thus, a feature to simulate this behavior is widely imperative for military training. However, in large-scale terrain, <strong>keeping the grass deformed for hours or even days of simulation can be incredibly memory-intensive</strong>. For this reason, this functionality was denied many times to the client and also drove my determination to seek a solution.</p>
+<ul>
+<li>Long-lasting grass deformation, supporting hours or even days of simulation;</li>
+<li>Control restoration times based on the type of collider, such as vehicles or humans;</li>
+<li>Scalable for numerous colliders;</li>
+<li>Deformation computed on GPU side using compute-shaders;</li>
+<li>Advanced data structures and compression techniques for efficient memory management, resulting in memory savings of over 90%;</li>
+<li>Seamless terrain integration, enhancing the visuals for fly-cameras;</li>
+<li>GPU-instancing to optimize the grass rendering;</li>
+</ul>
+<br/>
+<p>Demonstration of multiple colliders interacting with plants (on the left) and different restoration times for grass interacting with the tank&rsquo;s base or tracks (on the right).</p>
+ <div class="clearfix">
+  <video controls class="video-container">
+    <source src="\grass_and_terrain _deformation\grass-deformation-1.mp4" type="video/mp4" class="video">
+    </video>
+    <video controls class="video-container">
+        <source src="\grass_and_terrain _deformation\grass-deformation-2.mp4" type="video/mp4" class="video">
+    </video>
+    </div>
+<br/>
 <p><br />
 <br />
 <strong>Solution</strong></p>
@@ -195,20 +213,6 @@ In the fragment shader stage to texture the terrain the vector fields are sample
 <p><br />
 Compute-shaders were used to deform and restore the vector fields. LOD and GPU-instancing techniques were used to optimize plants' rendering. Vector fields are kept in a TextureAtlas to reuse memory, preventing allocations and memory fragmentation. Vector fields far way from the camera without dynamic objects close are compressed (using the LZ4 algorithm) to save memory. When needed, the vector fields are decompressed. Then, it is possible to maintain deformations for long periods with a low storage cost. Due to the minimal variation in vector field data, compression rates can be extremely high, resulting in memory savings of 90-95%.</p>
 <p><br />
-<br />
-<strong>Results</strong></p>
-<p>Below, on the left, is shown a demonstration with several colliders interacting with the plants simultaneously. On the right, is an example of a vehicle interacting with plants. Note that plants that interact with the base reestablish their original form more quickly than plants that interact with the tank&rsquo;s tracks.</p>
- <div class="clearfix">
-  <video controls class="video-container">
-    <source src="\grass_and_terrain _deformation\grass-deformation-1.mp4" type="video/mp4" class="video">
-    </video>
-    <video controls class="video-container">
-        <source src="\grass_and_terrain _deformation\grass-deformation-2.mp4" type="video/mp4" class="video">
-    </video>
-    </div>
-<br/>
-<p><br />
-<br />
 More details can be seen <a href="https://www.sbgames.org/sbgames2019/files/papers/ComputacaoFull/198047.pdf">here</a>.</p>
 
         

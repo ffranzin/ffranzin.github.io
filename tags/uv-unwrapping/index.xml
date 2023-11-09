@@ -2,33 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>UV unwrapping on Flavio Franzin</title>
-    <link>/tags/uv-unwrapping/</link>
+    <link>./tags/uv-unwrapping/</link>
     <description>Recent content in UV unwrapping on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="/tags/uv-unwrapping/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language><atom:link href="./tags/uv-unwrapping/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Procedural Bridge System</title>
-      <link>/projects/creations/procedural-bridge-system/</link>
+      <link>./projects/creations/procedural-bridge-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/procedural-bridge-system/</guid>
-      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 85%; }  I modeled a set of 3D bridges parts to compose a procedural bridge system.
-
-Description
-I was involved in the system design and also modeled many bridge parts to compose a flexible Procedural Bridge System, capable of instantiating many bridges during loading time based on a set of initial and final points.</description>
+      <guid>./projects/creations/procedural-bridge-system/</guid>
+      <description>* { box-sizing: border-box; } .img-container-x3 { float: left; width: 33%; padding: 1px; } .img-container-x1 { float: left; width: 49.5%; padding: 1px; } .img-container-x3:hover img { float: left; width: 150%; padding: 1px; } .img-container-x1:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 85%; } .left-arrow-container { display: flex; align-items: center; justify-content: center; } .</description>
     </item>
     
     <item>
       <title>Vehicles creation - 3D artist</title>
-      <link>/projects/creations/full_artist_process/</link>
+      <link>./projects/creations/astros_vehicles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/full_artist_process/</guid>
-      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 25%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }  
-Vehicles ASTROS II MK-6
-        Coded animation for vehicle leveling and a mechanical arm using inverse kinematics
-  
- Coded animation for vehicle&amp;rsquo;s mechanical arm using inverse kinematics</description>
+      <guid>./projects/creations/astros_vehicles/</guid>
+      <description> * { box-sizing: border-box; } .img-container-x4 { float: left; width: 49%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; }   Full creation of low-poly vehicles constituting the Brazilian Astros II (Artillery SaTuration ROcket System) battery.
+ 3D Modeling: Blender UV Unwrapping: Blender Level of Details (LOD): Blender (Decimate tool) Texturing: Substance Painter Bake: Blender (Normal and Ambient Occlusion map) Real-time dynamic animation: Code  Antennas (Blend shapes and C#) Mechanical arm (Inverse kinematics with C#) Leveling pistons (C#) Tailgate (C#)                 </description>
     </item>
     
   </channel>

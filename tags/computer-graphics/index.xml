@@ -2,67 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Computer Graphics on Flavio Franzin</title>
-    <link>/tags/computer-graphics/</link>
+    <link>./tags/computer-graphics/</link>
     <description>Recent content in Computer Graphics on Flavio Franzin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="/tags/computer-graphics/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language><atom:link href="./tags/computer-graphics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Break Glass</title>
-      <link>/projects/creations/breaking-glass/</link>
+      <link>./projects/creations/breaking-glass/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/breaking-glass/</guid>
-      <description>.center { display: block; margin-left: auto; margin-right: auto; max-width: 95%; } .row { display: flex; margin-left: auto; margin-right: auto; max-width: 95%; } .column { flex: 25%; padding: 2px; } video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; } #player-overlay { position: absolute; display: none; top: 0; left: 0; width: 100%; height: 100%; background-color: #000 z-index:999; }  I prototyped two solutions to break glass.</description>
+      <guid>./projects/creations/breaking-glass/</guid>
+      <description>.center { display: block; margin-left: auto; margin-right: auto; max-width: 95%; } .row { display: flex; margin-left: auto; margin-right: auto; max-width: 95%; } .column { flex: 33.33%; padding: 2px; } video { width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto; } #player-overlay { position: absolute; display: none; top: 0; left: 0; width: 100%; height: 100%; background-color: #000; z-index: 999; }  I prototyped two solutions for glass-breaking simulation.</description>
     </item>
     
     <item>
-      <title>Grass Deformation and Terrain Trails</title>
-      <link>/projects/creations/grass-and-terrain-deformation/</link>
+      <title>Grass Deformation</title>
+      <link>./projects/creations/grass-and-terrain-deformation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/grass-and-terrain-deformation/</guid>
-      <description>* { box-sizing: border-box; } .img-container { float: left; width: 25%; padding: 2px; } .video-container { float: left; width: 50%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 50%; }  I developed a solution for the real-time long-lasting grasses deformation and terrain trails according to the vehicles&#39; and characters&#39; movements.
-
-Motivation
-In the context of military simulations, the deformation of terrains and grasses according to the movement of military vehicles is dangerous, as it can reveal the position to the enemies.</description>
+      <guid>./projects/creations/grass-and-terrain-deformation/</guid>
+      <description>* { box-sizing: border-box; } .img-container { float: left; width: 25%; padding: 2px; } .video-container { float: left; width: 50%; padding: 2px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } .center { display: block; margin-left: auto; margin-right: auto; max-width: 50%; }  I developed a solution for the real-time long-lasting grass deformation according to the vehicles&#39; and characters&#39; movements.
+In real-world battlefields, vehicle tracks are dangerous as they can reveal position to enemies.</description>
     </item>
     
     <item>
       <title>Procedural Vegetation System</title>
-      <link>/projects/creations/procedural-vegetation-system/</link>
+      <link>./projects/creations/procedural-vegetation-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/procedural-vegetation-system/</guid>
-      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 33%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; }  To solve the limitations of an existing solution, I designed and developed a robust GPU-based vegetation system capable of handling thousands of trees and small plants efficiently in real-time.</description>
+      <guid>./projects/creations/procedural-vegetation-system/</guid>
+      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 33%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; }  I designed and developed a robust GPU-based vegetation system capable of handling thousands of plants efficiently in real-time.
+
+Description
+In small environments, the decoration is typically handled by artists or designers, enabling precise control and aesthetically pleasing results.</description>
     </item>
     
     <item>
       <title>Vector Data Access Optimization</title>
-      <link>/projects/creations/vector-feature-map/</link>
+      <link>./projects/creations/vector-feature-map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/vector-feature-map/</guid>
-      <description>video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; } #player-overlay { position: absolute; display: none; top: 0; left: 0; width: 100%; height: 100%; background-color: #000 z-index:999; }  I developed a dynamic structure to optimize access to mass datasets of polygons and polylines, representing areas like forests, lakes, roads, and rivers. This structure accelerated the terrain rendering ーwhich these data are projected by texturingー by +80% on average.</description>
+      <guid>./projects/creations/vector-feature-map/</guid>
+      <description>video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; } #player-overlay { position: absolute; display: none; top: 0; left: 0; width: 100%; height: 100%; background-color: #000 z-index:999; }  I developed a dynamic data structure to optimize access to mass datasets of polygons and polylines. This structure accelerated terrain rendering by an average of +80%.
+In military simulations, mass GIS (Geographic Information System) datasets are a common resource used to represent features like forests, lakes, roads, and rivers through polygons and polylines.</description>
     </item>
     
     <item>
       <title>Volumetric Procedural Clouds</title>
-      <link>/projects/creations/clouds/</link>
+      <link>./projects/creations/clouds/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/clouds/</guid>
-      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 33%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; }  I created a volumetric procedural clouds using ray-marching technique.
+      <guid>./projects/creations/clouds/</guid>
+      <description>* { box-sizing: border-box; } .img-container-x4 { float: left; width: 49%; padding: 1px; } .img-container-x4:hover img { float: left; width: 150%; padding: 1px; } .clearfix::after { content: &#34;&#34;; clear: both; display: table; } video { width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto; }  I created a volumetric procedural clouds using the ray-marching technique.
 
 Description
-I have created a solution for real-time volumetric cloud rendering using the raymarching technique.</description>
+I developed a real-time volumetric cloud rendering solution using ray-marching technique for my BSc project inspired by the Guerrilla team&amp;rsquo;s proposal.</description>
     </item>
     
     <item>
       <title>Water planes mesh generation</title>
-      <link>/projects/creations/water-bodies-meshes-generation/</link>
+      <link>./projects/creations/water-bodies-meshes-generation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/creations/water-bodies-meshes-generation/</guid>
+      <guid>./projects/creations/water-bodies-meshes-generation/</guid>
       <description>.center { display: block; margin-left: auto; margin-right: auto; max-width: 95%; } .row { display: flex; margin-left: auto; margin-right: auto; max-width: 95%; } .column { flex: 25%; padding: 2px; }  I designed and guided an intern in developing a tool to generate polygonal meshes from mass polygons and polylines datasets, representing rivers (lines) and lakes (polygons) in large-scale scenarios.
 
 Description

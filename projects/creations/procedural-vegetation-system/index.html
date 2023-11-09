@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Flavio Franzin | Procedural Vegetation System</title>
   <meta property="og:title" content="Flavio Franzin | Procedural Vegetation System" />
-  <meta property="og:image" content="/perfil.jpg" />
+  <meta property="og:image" content="./perfil.jpg" />
   <meta name="description" content="I designed and developed a robust GPU-based vegetation system capable of handling thousands of trees and small plants efficiently in real-time.">
   <meta property="og:description" content="I designed and developed a robust GPU-based vegetation system capable of handling thousands of trees and small plants efficiently in real-time." />
   <meta name="author" content="Flavio Franzin ">
@@ -23,12 +23,12 @@
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous"></noscript>
   
-  <link rel="preload" href="/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/resume.css"></noscript>
-  <link rel="preload" href="/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/tweaks.css"></noscript>
-  <link rel="preload" href="/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/resume-override.css"></noscript>
+  <link rel="preload" href="./css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./css/resume.css"></noscript>
+  <link rel="preload" href="./css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./css/tweaks.css"></noscript>
+  <link rel="preload" href="./css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./css/resume-override.css"></noscript>
   <meta name="generator" content="Hugo 0.88.1" />
   
    
@@ -91,22 +91,22 @@
 
 
 <li class="breadcrumb-item">
-  <a href="/">Home</a>
+  <a href="./">Home</a>
 </li>
 
 
 <li class="breadcrumb-item">
-  <a href="/projects/">Projects</a>
+  <a href="./projects/">Projects</a>
 </li>
 
 
 <li class="breadcrumb-item">
-  <a href="/projects/creations/">Projects and Main Achievements</a>
+  <a href="./projects/creations/">Projects and Main Achievements</a>
 </li>
 
 
 <li class="breadcrumb-item active">
-  <a href="/projects/creations/procedural-vegetation-system/">Procedural Vegetation System</a>
+  <a href="./projects/creations/procedural-vegetation-system/">Procedural Vegetation System</a>
 </li>
 
   </ol>
@@ -153,24 +153,59 @@ video {
 
 
 </style>
-<p>To solve the limitations of an existing solution, I designed and developed a robust GPU-based vegetation system capable of handling thousands of trees and small plants efficiently in real-time.</p>
+<p>I designed and developed a robust GPU-based vegetation system capable of handling thousands of plants efficiently in real-time.</p>
+<p><br />
+<strong>Description</strong></p>
+<p>In small environments, the decoration is typically handled by artists or designers, enabling precise control and aesthetically pleasing results. Nevertheless, as the environment size grows, this approach becomes increasingly time-consuming and impractical. To address this challenge, procedural solutions are often used, offering significant time savings. In this context, I have developed a solution that <strong>implements best practices for efficiently distributing  and rendering thousands of trees and small plants in real-time</strong>.</p>
+<p>Features:</p>
+<ul>
+<li><strong>Procedural distribution:</strong> enabling plant placement and rendering in expansive scenarios exceeding 500x500km.
+<ul>
+<li>On-demand distribution just for visible areas;</li>
+<li>Deterministic plant redistribution for revisited areas;</li>
+</ul>
+</li>
+<li><strong>Global control for plant species:</strong> You can control the distribution of different plant species (oak tree, palm tree, cactus, grass) based on:
+<ul>
+<li>Pre-defined polygons that describe forests;</li>
+<li>Placement near pre-defined lines like rivers;</li>
+<li>Exclusion of undesirable zones such as lakes and roads;</li>
+<li>Integration with manually designated placement zones within the pre-defined polygons;</li>
+<li>Heightmap characteristics (slope, height) through adaptability curves;</li>
+<li>Weather-related aspects (temperature, precipitation) using 2D input maps and adaptability curves;</li>
+</ul>
+</li>
+<li><strong>LOD management and efficient rendering:</strong>
+<ul>
+<li>Individual LOD settings for each plant species to finely balance performance and visual quality;</li>
+<li>LOD selection for each plant is efficiently computed compute-shaders;</li>
+<li>Frustum culling for each plant is efficiently computed using compute shaders;</li>
+<li>Maximum view range defined for each species;</li>
+<li>GPU-instancing to reduces drastically the draw-calls (just 2*№_LODs draw-calls per specie);</li>
+</ul>
+</li>
+<li><strong>Resource optimization:</strong>
+<ul>
+<li>Minimum CPU usage;</li>
+<li>Minimum RAM&lt;-&gt;VRAM data transfers;</li>
+<li>No continuous memory allocation;</li>
+</ul>
+</li>
+<li><strong>Physics integration:</strong>
+<ul>
+<li>On-demand spawn of colliders for plants close to characters;</li>
+</ul>
+</li>
+</ul>
+<p>Little or not explored:</p>
+<ul>
+<li>Advanced lighting (subsurface scattering, GI, lighting bake);</li>
+<li>Advanced quality assets (used trees have 8-12K triangles in LOD0);</li>
+<li>Cross-fading for smooth LOD transitions.</li>
+</ul>
 <br/>
-<p><strong>Motivation</strong></p>
-<p>Small environments are usually decorated by an artist or designer, which allows for fine control and pleasant-looking results. However, this process tends to be time-consuming and can quickly become impractical as the size of the environment increases. To deal with this, procedural solutions are commonly adopted as they speed up the process. Therefore, a solution was developed to distribute trees to the entire scenario and store the result for future use. However, the solution didn&rsquo;t allow artists' editing and was completely CPU-based. The non-use of parallelism and the constant data transfers between CPU→GPU were the main factors that negatively impacted the performance. Distribution was CPU-based and offline, where minor changes required hours to redistribute and save the result. The solution was limited to distributing large and medium-sized trees to minimize application loading cost and memory consumption.</p>
-<p>In this context, I designed and developed a new solution to manage vegetation in large-scale scenarios, solving the main limitations of an existing solution.</p>
 <br/>
-<p><strong>Solution</strong></p>
-<p>The solution distributes vegetation procedurally on-demand in regions delimited by quadtree&rsquo;s nodes. Nodes outside the camera&rsquo;s frustum are destroyed as well as the plants of it. The plants remain in memory as long as the nodes are visible. If needed, the plants are deterministically redistributed as the nodes are recreated.</p>
-<p>For distribution, the solution considers the influence of different <em>aspects</em>, such as terrain (e.g., slope and moisture), environmental (e.g., forest, lakes, and rivers zones), and human (e.g., villages and roads) <em>aspects</em>. These aspects must be normalizable values into [0, 1] for any scenario&rsquo;s portion, encoded in 2D maps and/or vector data. Any other information discretized into [0-1] can be integrated.</p>
-<p>Plants are grouped using the concept of <em>presets</em>, characterized by a set of plants that share the same needs, considering distribution <em>aspects</em> and other fields used to exist in some scenario&rsquo;s position. For example, a <em>presets</em> of plants that exist in 1) forest zones, 2) not in steep regions, and 3) in higher altitude regions. The system analyzes many <em>presets</em> in real-time and defines which preset best fits a particular scenario&rsquo;s position. After determining the best <em>presets</em> for the analyzed position, any plant from that can be randomly selected to be placed.</p>
-<p>For efficiency purposes, plants are analyzed frame-by-frame to establish a LOD to balance performance and visuals. The LOD is defined from the distance of each plant to the camera &ndash;artists have control over it. Also, plants outside the frustum are discarded before rendering. Finally, the plant data is organized properly for use of GPU-instancing to speed up rendering.</p>
-<p>Even though vegetation processing takes place mainly on the GPU, other processes on the CPU can still interact with plants. Objects can deform grass and small bushes, keeping them bent for long periods with acceptable memory demands (<a href="https://www.sbgames.org/sbgames2019/files/papers/ComputacaoFull/198047.pdf">see more details here</a>). Plants' colliders are instanced on-demand based on physics objects' positions to allow collisions with large and medium-sized trees using the physics engine.</p>
-<br/>
-<br/>
-<p><strong>Results</strong></p>
-<p>A scalable GPU-based solution was developed to deal with any type of plant (e.g., trees, bushes, and grass) in real-time. It is possible to save different configurations &ndash;equivalent to biomes&ndash; and use them in different scenarios. Artists can intuitively edit these configurations to get different layouts for plant placement, previewing the result immediately. In addition, artists can edit LOD parameters to get a trade-off between visuals and performance. The solution also extracts maximum parallelism and processing from modern GPUs.</p>
-<p>Below we have four examples of created biomes.</p>
-</br>
+<p>Below we have some visual results.</p>
 <div class="clearfix">
   <div class="img-container-x4">
     <img src="\vegetation\amazonia_1.jpg" style="width:100%">
@@ -185,25 +220,13 @@ video {
 </br>
 <div class="clearfix">
   <div class="img-container-x4">
-    <img src="\vegetation\atlantica_1.jpg" style="width:100%">
+    <img src="\vegetation\pampa_1.jpg" style="width:100%">
   </div>
    <div class="img-container-x4">
     <img src="\vegetation\atlantica_2.jpg" style="width:100%">
   </div>
   <div class="img-container-x4">
     <img src="\vegetation\atlantica_3.jpg" style="width:100%">
-  </div>
-</div>
-</br>
-<div class="clearfix">
-  <div class="img-container-x4">
-    <img src="\vegetation\pampa_1.jpg" style="width:100%">
-  </div>
-   <div class="img-container-x4">
-    <img src="\vegetation\pampa_2.jpg" style="width:100%">
-  </div>
-  <div class="img-container-x4">
-    <img src="\vegetation\pampa_3.jpg" style="width:100%">
   </div>
 </div>
 </br>
@@ -232,10 +255,21 @@ video {
   </div>
 </div>
 </br>
-<p>Below we have a short performance demonstration.</p>
+<p>Below we have a short performance demonstration (Ryzen 3, GTX 1070, 16GB  RAM, Full HD). In this demonstration, the terrain spans 80km on its larger side, while trees are visible at distances of up to 8km.</p>
 <video controls>
     <source src="\vegetation\FlyCameraPerformance.mp4" type="video/mp4" class="video">
 </video>
+<br/>
+<br/>
+<br/>
+<br/>
+<p><strong>High-level details about the solution</strong></p>
+<p>The solution distributes vegetation procedurally on-demand in regions delimited by quadtree&rsquo;s nodes. Nodes outside the camera&rsquo;s frustum are destroyed as well as the plants of it. The plants remain in memory as long as the nodes are visible. If needed, the plants are deterministically redistributed as the nodes are recreated.</p>
+<p>For distribution, the solution considers the influence of different <em>aspects</em>, such as terrain (e.g., slope and moisture), environmental (e.g., forest, lakes, and rivers zones), and human (e.g., villages and roads) <em>aspects</em>. These aspects must be normalizable values into [0, 1] for any scenario&rsquo;s portion, encoded in 2D maps and/or vector data. Any other information discretized into [0-1] can be integrated.</p>
+<p>Plants are grouped using the concept of <em>presets</em>, characterized by a set of plants that share the same needs, considering distribution <em>aspects</em> and other fields used to exist in some scenario&rsquo;s position. For example, a <em>presets</em> of plants that exist in 1) forest zones, 2) not in steep regions, and 3) in higher altitude regions. The system analyzes many <em>presets</em> in real-time and defines which preset best fits a particular scenario&rsquo;s position. After determining the best <em>presets</em> for the analyzed position, any plant from that can be randomly selected to be placed.</p>
+<p>For efficiency purposes, plants are analyzed frame-by-frame to establish a LOD to balance performance and visuals. The LOD is defined from the distance of each plant to the camera &ndash;artists have control over it. Also, plants outside the frustum are discarded before rendering. Finally, the plant data is organized properly for use of GPU-instancing to speed up rendering.</p>
+<p>Even though vegetation processing takes place mainly on the GPU, other processes on the CPU can still interact with plants. Objects can deform grass and small bushes, keeping them bent for long periods with acceptable memory demands (<a href="https://www.sbgames.org/sbgames2019/files/papers/ComputacaoFull/198047.pdf">see more details here</a>). Plants' colliders are instanced on-demand based on physics objects' positions to allow collisions with large and medium-sized trees using the physics engine.</p>
+<p>As a result, A scalable GPU-based solution was developed to deal with any type of plant (e.g., trees, bushes, and grass) in real-time. It is possible to save different configurations &ndash;equivalent to biomes&ndash; and use them in different scenarios. Artists can intuitively edit these configurations to get different layouts for plant placement, previewing the result immediately. In addition, artists can edit LOD parameters to get a trade-off between visuals and performance. The solution also extracts maximum parallelism and processing from modern GPUs.</p>
 
         
 

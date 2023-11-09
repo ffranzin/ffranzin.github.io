@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Flavio Franzin | Vector Data Access Optimization</title>
   <meta property="og:title" content="Flavio Franzin | Vector Data Access Optimization" />
-  <meta property="og:image" content="/perfil.jpg" />
+  <meta property="og:image" content="./perfil.jpg" />
   <meta name="description" content="I developed a dynamic structure to optimize access to mass datasets of polygons and polylines, speeding up virtual terrain rendering by &#43;80% on average.">
   <meta property="og:description" content="I developed a dynamic structure to optimize access to mass datasets of polygons and polylines, speeding up virtual terrain rendering by &#43;80% on average." />
   <meta name="author" content="Flavio Franzin ">
@@ -23,12 +23,12 @@
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous"></noscript>
   
-  <link rel="preload" href="/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/resume.css"></noscript>
-  <link rel="preload" href="/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/tweaks.css"></noscript>
-  <link rel="preload" href="/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/resume-override.css"></noscript>
+  <link rel="preload" href="./css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./css/resume.css"></noscript>
+  <link rel="preload" href="./css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./css/tweaks.css"></noscript>
+  <link rel="preload" href="./css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./css/resume-override.css"></noscript>
   <meta name="generator" content="Hugo 0.88.1" />
   
    
@@ -91,22 +91,22 @@
 
 
 <li class="breadcrumb-item">
-  <a href="/">Home</a>
+  <a href="./">Home</a>
 </li>
 
 
 <li class="breadcrumb-item">
-  <a href="/projects/">Projects</a>
+  <a href="./projects/">Projects</a>
 </li>
 
 
 <li class="breadcrumb-item">
-  <a href="/projects/creations/">Projects and Main Achievements</a>
+  <a href="./projects/creations/">Projects and Main Achievements</a>
 </li>
 
 
 <li class="breadcrumb-item active">
-  <a href="/projects/creations/vector-feature-map/">Vector Data Access Optimization</a>
+  <a href="./projects/creations/vector-feature-map/">Vector Data Access Optimization</a>
 </li>
 
   </ol>
@@ -141,15 +141,30 @@ video {
 
 
 </style>
-<p>I developed a dynamic structure to optimize access to mass datasets of polygons and polylines, representing areas like forests, lakes, roads, and rivers. This structure accelerated the terrain rendering ーwhich these data are projected by texturingー by +80% on average.</p>
-<p><br />
-<strong>Description</strong></p>
-<p>In military simulations, the use of vector data to represent natural or human elements such as rivers, roads, highways, lakes, forests, and wetlands is standard practice. However, the sheer number of polylines or polygons required to accurately depict these elements can make access prohibitively expensive. To mitigate this issue, acceleration structures such as hash, BVH, and quadtree are commonly employed to reduce costs. These structures are only as efficient as their level of refinement, which is determined by the number of entities and area encapsulated by each unit (like a Quadtree&rsquo;s node or Hash&rsquo;s cells). Unfortunately, the memory consumption required to refine these structures becomes a limiting factor in larger scenarios, reducing potential performance gains. In addition, there is still a considerable cost to traverse these structures and their data.</p>
-<p>In order to address the issue of costly access to acceleration structures by shaders, I have developed a middle layer structure. The video below demonstrates the difference in access (red fragments) to the acceleration structures before and after implementing this solution. With the Optimization toggle enabled (see in the bottom left), access to the acceleration structures is dramatically reduced (blue fragments indicating no access), as the middle layer structure identifies areas without any elements (river, road, &hellip;), indicating that we can use standard materials (such as soil) in these areas. This results in a significant performance boost, often doubling performance in many cases.</p>
-<p><br />
+<p>I developed a dynamic data structure to optimize access to mass datasets of polygons and polylines. This structure accelerated terrain rendering by an average of +80%.</p>
+<p>In military simulations, mass GIS (Geographic Information System) datasets are a common resource used to represent features like forests, lakes, roads, and rivers through polygons and polylines. These datasets play a vital role in defining the materials in large terrains (exceeding 100x100km) where traditional material baking is storage-intensive and can be impractical. This leads to the need for real-time texture rendering. Despite the use of acceleration data structures (e.g., hash, BVH, and quadtree) to reduce data access costs in terrain rendering, there may still be limitations to their effectiveness.</p>
+<p>To address the issue of costly access to bulk GIS datasets for terrain rendering, I developed an intermediate data structure between the terrain shaders and acceleration data structures. This structure significantly streamlines material selection and minimizes access to the acceleration data structures, thereby enhancing performance.</p>
+<p>The structure in summary:</p>
+<ul>
+<li>On-demand, we select visible areas and set up the structure using compute shaders;</li>
+<li>Each visible area is represented by a 2D texture.</li>
+<li>Each pixel covers 10x10cm, requires 1 byte, and encodes until 8 features (e.g., forests and rivers);</li>
+<li>The encoded data not only defines the feature(s) but also determines whether access to the acceleration data structure is necessary for more precise data;</li>
+<li>It supports multilayers, allowing pixels from distant areas to cover larger areas, thereby saving memory;</li>
+<li>The structure is computed and released on-demand, optimizing memory consumption;</li>
+<li>Memory is reused to prevent memory allocation spikes and fragmentation;</li>
+<li>No data transfer between RAM and VRAM after the game setup, enhancing efficiency.</li>
+</ul>
+<p><br/><br/></p>
+<p>Check the demonstration in a terrain with 80x35km.</p>
+<ul>
+<li>Red fragments indicate access to data structures (costly);</li>
+<li>Blue fragments represent my data structure (much cheaper) in use to define the fragment material;</li>
+<li>Observe the toggles and the performance changes.</li>
+</ul>
 <video controls>
-<source src="\splat\splat-data-access.mp4" type="video/mp4">
-</video></p>
+    <source src="\splat\splat-data-access.mp4" type="video/mp4">
+</video>
 
         
 
